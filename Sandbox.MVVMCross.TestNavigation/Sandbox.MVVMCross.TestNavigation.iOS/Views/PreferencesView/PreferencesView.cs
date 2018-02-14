@@ -20,6 +20,7 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.PreferencesView
             base.ViewDidLoad();
             var set = this.CreateBindingSet<PreferencesView, PreferencesViewModel>();
             set.Bind(lblTitleScreen).To(vm => vm.ScreenTitle);
+            set.Bind(btnRedirectMyProfile).To(vm => vm.redirectToMyProfile);
             set.Apply();
         }
 

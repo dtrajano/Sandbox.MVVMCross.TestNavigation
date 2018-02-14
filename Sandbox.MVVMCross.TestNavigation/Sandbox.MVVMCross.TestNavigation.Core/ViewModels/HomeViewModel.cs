@@ -14,6 +14,11 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
             set;
         }
 
+        public IMvxAsyncCommand redirectFirstOption
+        {
+            get { return new MvxAsyncCommand(async () => await _navigationService.Navigate<FirstViewModel>()); }
+        }
+
         public HomeViewModel(IMvxNavigationService navigationService)
         {
             _navigationService = navigationService;

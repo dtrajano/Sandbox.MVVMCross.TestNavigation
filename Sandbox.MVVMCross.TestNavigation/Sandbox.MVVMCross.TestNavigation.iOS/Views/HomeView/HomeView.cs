@@ -21,6 +21,7 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.HomeView
 
             var set = this.CreateBindingSet<HomeView, HomeViewModel>();
             set.Bind(lblTitleScreen).To(vm => vm.ScreenTitle);
+            set.Bind(btnRedirectFirstOption).To(vm=>vm.redirectFirstOption);
             set.Apply();
 
             // Perform any additional setup after loading the view, typically from a nib.

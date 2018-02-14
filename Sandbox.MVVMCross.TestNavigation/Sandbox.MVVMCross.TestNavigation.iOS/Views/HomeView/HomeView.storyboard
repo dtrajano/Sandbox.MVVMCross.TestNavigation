@@ -24,10 +24,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="651" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="140" y="449" width="155" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Redirecionar"/>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
                         <outlet property="lblTitleScreen" destination="433" id="name-outlet-433"/>
+                        <outlet property="btnRedirectFirstOption" destination="651" id="name-outlet-651"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="218" userLabel="First Responder" sceneMemberID="firstResponder"/>

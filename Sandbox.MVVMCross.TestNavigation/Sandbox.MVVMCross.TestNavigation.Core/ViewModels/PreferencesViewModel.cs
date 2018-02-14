@@ -13,6 +13,15 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
             set;
         }
 
+        public IMvxCommand redirectToMyProfile
+        {
+            //get { return new MvxAsyncCommand(async () => await _navigationService.Navigate<MyProfileViewModel>()); }
+            get
+            {
+                return new MvxCommand(() => ShowViewModel<MyProfileViewModel>());
+            }
+        }
+
         IMvxNavigationService _navigationService;
 
         public PreferencesViewModel(IMvxNavigationService navigationService)

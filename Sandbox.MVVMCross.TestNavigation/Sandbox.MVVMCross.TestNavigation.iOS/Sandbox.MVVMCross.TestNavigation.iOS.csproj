@@ -113,6 +113,10 @@
     <Compile Include="Views\TabRootView\TabRootView.designer.cs">
       <DependentUpon>TabRootView.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\MyProfileView\MyProfileView.cs" />
+    <Compile Include="Views\MyProfileView\MyProfileView.designer.cs">
+      <DependentUpon>MyProfileView.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Setup.cs" />
@@ -128,6 +132,7 @@
     <InterfaceDefinition Include="Views\PreferencesView\PreferencesView.storyboard" />
     <InterfaceDefinition Include="Views\HomeView\HomeView.storyboard" />
     <InterfaceDefinition Include="Views\MyMenuView\MyMenuView.storyboard" />
+    <InterfaceDefinition Include="Views\MyProfileView\MyProfileView.storyboard" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -220,6 +225,7 @@
     <Folder Include="Views\MyMenuView\" />
     <Folder Include="Views\PreferencesView\" />
     <Folder Include="Views\TabRootView\" />
+    <Folder Include="Views\MyProfileView\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

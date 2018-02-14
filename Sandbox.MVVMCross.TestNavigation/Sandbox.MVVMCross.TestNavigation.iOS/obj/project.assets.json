@@ -49,6 +49,22 @@
           "lib/Xamarin.iOS10/MvvmCross.Platform.dll": {},
           "lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll": {}
         }
+      },
+      "Sandbox.MVVMCross.TestNavigation.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.4",
+        "dependencies": {
+          "MvvmCross": "5.2.1",
+          "MvvmCross.Binding": "5.2.1",
+          "MvvmCross.Core": "5.2.1",
+          "MvvmCross.Platform": "5.2.1"
+        },
+        "compile": {
+          "bin/placeholder/Sandbox.MVVMCross.TestNavigation.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sandbox.MVVMCross.TestNavigation.Core.dll": {}
+        }
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
@@ -98,6 +114,22 @@
         "runtime": {
           "lib/Xamarin.iOS10/MvvmCross.Platform.dll": {},
           "lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll": {}
+        }
+      },
+      "Sandbox.MVVMCross.TestNavigation.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.4",
+        "dependencies": {
+          "MvvmCross": "5.2.1",
+          "MvvmCross.Binding": "5.2.1",
+          "MvvmCross.Core": "5.2.1",
+          "MvvmCross.Platform": "5.2.1"
+        },
+        "compile": {
+          "bin/placeholder/Sandbox.MVVMCross.TestNavigation.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sandbox.MVVMCross.TestNavigation.Core.dll": {}
         }
       }
     },
@@ -149,6 +181,22 @@
           "lib/Xamarin.iOS10/MvvmCross.Platform.dll": {},
           "lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll": {}
         }
+      },
+      "Sandbox.MVVMCross.TestNavigation.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.4",
+        "dependencies": {
+          "MvvmCross": "5.2.1",
+          "MvvmCross.Binding": "5.2.1",
+          "MvvmCross.Core": "5.2.1",
+          "MvvmCross.Platform": "5.2.1"
+        },
+        "compile": {
+          "bin/placeholder/Sandbox.MVVMCross.TestNavigation.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sandbox.MVVMCross.TestNavigation.Core.dll": {}
+        }
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
@@ -198,6 +246,22 @@
         "runtime": {
           "lib/Xamarin.iOS10/MvvmCross.Platform.dll": {},
           "lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll": {}
+        }
+      },
+      "Sandbox.MVVMCross.TestNavigation.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.4",
+        "dependencies": {
+          "MvvmCross": "5.2.1",
+          "MvvmCross.Binding": "5.2.1",
+          "MvvmCross.Core": "5.2.1",
+          "MvvmCross.Platform": "5.2.1"
+        },
+        "compile": {
+          "bin/placeholder/Sandbox.MVVMCross.TestNavigation.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sandbox.MVVMCross.TestNavigation.Core.dll": {}
         }
       }
     }
@@ -368,6 +432,11 @@
         "mvvmcross.platform.5.2.1.nupkg.sha512",
         "mvvmcross.platform.nuspec"
       ]
+    },
+    "Sandbox.MVVMCross.TestNavigation.Core/1.0.0": {
+      "type": "project",
+      "path": "../Sandbox.MVVMCross.TestNavigation.Core/Sandbox.MVVMCross.TestNavigation.Core.csproj",
+      "msbuildProject": "../Sandbox.MVVMCross.TestNavigation.Core/Sandbox.MVVMCross.TestNavigation.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -375,7 +444,8 @@
       "MvvmCross >= 5.2.1",
       "MvvmCross.Binding >= 5.2.1",
       "MvvmCross.Core >= 5.2.1",
-      "MvvmCross.Platform >= 5.2.1"
+      "MvvmCross.Platform >= 5.2.1",
+      "Sandbox.MVVMCross.TestNavigation.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -401,7 +471,11 @@
       },
       "frameworks": {
         "xamarinios10": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/Sandbox.MVVMCross.TestNavigation.Core.csproj": {
+              "projectPath": "/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/Sandbox.MVVMCross.TestNavigation.Core.csproj"
+            }
+          }
         }
       }
     },

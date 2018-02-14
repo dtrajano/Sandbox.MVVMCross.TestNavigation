@@ -16,10 +16,19 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.HomeView
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton btnRedirectFirstOption { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel lblTitleScreen { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
+            if (btnRedirectFirstOption != null) {
+                btnRedirectFirstOption.Dispose ();
+                btnRedirectFirstOption = null;
+            }
+
             if (lblTitleScreen != null) {
                 lblTitleScreen.Dispose ();
                 lblTitleScreen = null;

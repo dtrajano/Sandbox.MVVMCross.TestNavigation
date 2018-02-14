@@ -1,5 +1,14 @@
 ﻿<Properties StartupConfiguration="{528D503E-5F99-48FA-A814-097EE9DF9664}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Views/TabRootView/TabRootView.cs">
+    <Files>
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/ViewModels/PreferencesViewModel.cs" Line="20" Column="14" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Views/PreferencesView/PreferencesView.cs" Line="23" Column="77" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Views/MyProfileView/MyProfileView.cs" Line="20" Column="1" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/ViewModels/MyProfileViewModel.cs" Line="17" Column="93" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/ViewModels/TabRootViewModel.cs" Line="23" Column="30" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Views/TabRootView/TabRootView.cs" Line="10" Column="25" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
