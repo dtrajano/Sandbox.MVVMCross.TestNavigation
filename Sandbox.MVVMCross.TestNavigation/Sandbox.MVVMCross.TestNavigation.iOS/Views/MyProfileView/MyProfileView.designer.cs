@@ -16,10 +16,19 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.MyProfileView
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton btnClose { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel lblTitleScreen { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
+            if (btnClose != null) {
+                btnClose.Dispose ();
+                btnClose = null;
+            }
+
             if (lblTitleScreen != null) {
                 lblTitleScreen.Dispose ();
                 lblTitleScreen = null;

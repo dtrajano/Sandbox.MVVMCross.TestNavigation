@@ -18,14 +18,10 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.MyProfileView
         {
             base.ViewDidLoad();
 
-            NavigationItem.SetLeftBarButtonItem(new UIBarButtonItem("Voltar", UIBarButtonItemStyle.Plain, null),true);
-
+            this.NavigationItem.SetLeftBarButtonItem(new UIBarButtonItem("Voltar", UIBarButtonItemStyle.Plain, null),true);
             var set = this.CreateBindingSet<MyProfileView, MyProfileViewModel>();
             set.Bind(lblTitleScreen).To(vm=>vm.ScreenTitle);
-            this.AddBindings(new Dictionary<object,string>() {
-                {NavigationItem.LeftBarButtonItem, "Voltar"}
-            });
-            set.Bind(NavigationItem.LeftBarButtonItem).To(vm=>vm.Close);
+            set.Bind(btnClose).To(vm=>vm.Close);
             set.Apply();
         }
 

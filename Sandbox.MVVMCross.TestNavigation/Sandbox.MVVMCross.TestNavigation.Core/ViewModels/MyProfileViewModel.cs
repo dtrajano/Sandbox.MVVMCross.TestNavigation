@@ -4,7 +4,7 @@ using MvvmCross.Core.ViewModels;
 
 namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
 {
-    public class MyProfileViewModel : MvxViewModel
+    public class MyProfileViewModel : MvxViewModel<string,string>
     {
 
         public string ScreenTitle
@@ -14,7 +14,7 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
 
         public IMvxAsyncCommand Close
         {
-            get { return new MvxAsyncCommand(async () => await _navigationService.Close(this)); }
+            get { return new MvxAsyncCommand(async () => await _navigationService.Close(this, "teste")); }
         }
 
         IMvxNavigationService _navigationService;
@@ -24,7 +24,7 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
             _navigationService = navigationService;
         }
 
-        public override void Prepare()
+        public override void Prepare(string message)
         {
             base.Prepare();
         }
