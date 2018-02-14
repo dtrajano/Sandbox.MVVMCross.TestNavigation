@@ -14,7 +14,7 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
 
         public IMvxAsyncCommand Close
         {
-            get { return new MvxAsyncCommand(async () => await _navigationService.Close(this, "teste")); }
+            get { return new MvxAsyncCommand(async () => await _navigationService.Close(this, "teste retorno profile")); }
         }
 
         IMvxNavigationService _navigationService;

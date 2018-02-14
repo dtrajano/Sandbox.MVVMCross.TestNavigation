@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Sandbox_MVVMCross_TestNavigation.Droid</RootNamespace>
     <AssemblyName>Sandbox_MVVMCross_TestNavigation.Droid</AssemblyName>
-    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
@@ -84,6 +84,10 @@
     <Folder Include="Resources\drawable-mdpi\" />
     <Folder Include="Resources\drawable-xhdpi\" />
     <Folder Include="Resources\drawable-xxhdpi\" />
+    <Folder Include="Views\TabRootView\" />
+    <Folder Include="Views\HomeView\" />
+    <Folder Include="Views\MyMenuView\" />
+    <Folder Include="Views\PreferencesView\" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\splash.png" />
