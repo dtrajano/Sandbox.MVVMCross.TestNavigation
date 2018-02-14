@@ -8,7 +8,7 @@ using UIKit;
 namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.PreferencesView
 {
     [MvxFromStoryboard("PreferencesView")]
-    [MvxTabPresentation(TabIconName = "home", TabName = "Preferences")]
+    [MvxTabPresentation(WrapInNavigationController = true, TabIconName = "home", TabName = "Preferences")]
     public partial class PreferencesView : MvxViewController<PreferencesViewModel>
     {
         public PreferencesView(IntPtr handle) : base(handle)
@@ -22,6 +22,11 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.PreferencesView
             set.Bind(lblTitleScreen).To(vm => vm.ScreenTitle);
             set.Bind(btnRedirectMyProfile).To(vm => vm.redirectToMyProfile);
             set.Apply();
+        }
+
+        public override void ViewWillAppear(bool animated)
+        {
+            base.ViewWillAppear(animated);
         }
 
         public override void DidReceiveMemoryWarning()

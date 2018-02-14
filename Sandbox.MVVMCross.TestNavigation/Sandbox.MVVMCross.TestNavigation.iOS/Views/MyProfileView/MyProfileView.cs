@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using MvvmCross.Binding.BindingContext;
 using MvvmCross.iOS.Views;
+using MvvmCross.iOS.Views.Presenters.Attributes;
 using Sandbox.MVVMCross.TestNavigation.Core.ViewModels;
 using UIKit;
 
@@ -17,7 +18,7 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.MyProfileView
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-
+            this.NavigationController.NavigationBarHidden = true;
             this.NavigationItem.SetLeftBarButtonItem(new UIBarButtonItem("Voltar", UIBarButtonItemStyle.Plain, null),true);
             var set = this.CreateBindingSet<MyProfileView, MyProfileViewModel>();
             set.Bind(lblTitleScreen).To(vm=>vm.ScreenTitle);

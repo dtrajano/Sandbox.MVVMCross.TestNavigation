@@ -1,4 +1,5 @@
 ﻿using System;
+using MvvmCross.Binding.BindingContext;
 using MvvmCross.iOS.Views;
 using MvvmCross.iOS.Views.Presenters.Attributes;
 using Sandbox.MVVMCross.TestNavigation.Core.ViewModels;
@@ -12,9 +13,6 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.TabRootView
     {
         private bool _isPresentedFirstTime = true;
 
-        //public TabRootView() { 
-        //    ViewDidLoad();
-        //}
 
         public TabRootView(IntPtr handle) : base(handle)
         {
@@ -23,7 +21,6 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.TabRootView
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-            // Perform any additional setup after loading the view, typically from a nib.
         }
 
         public override void ViewWillAppear(bool animated)
@@ -35,6 +32,10 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.TabRootView
                 _isPresentedFirstTime = false;
 
                 ViewModel.ShowInitialViewModelsCommand.ExecuteAsync(null);
+
+                //var set = this.CreateBindingSet<TabRootView, TabRootViewModel>();
+                //set.Bind(this).For(v => v.SelectedIndex).To(vm => vm.ItemIndex);
+                //set.Apply();
             }
         }
 
@@ -47,6 +48,45 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.TabRootView
                 attribute.TabIconName = "ic_tabbar_menu";
 
             base.SetTitleAndTabBarItem(viewController, attribute);
+        }
+
+        public override void ShowTabView(UIViewController viewController, MvxTabPresentationAttribute attribute)
+        {
+            base.ShowTabView(viewController, attribute);
+        }
+
+        //DISPARADO SEMPRE QUE UMA VIEW DE SEGUNDO NIVEL ABRE E VOLTA PARA VIEW PRINCIPAL DA TAB
+        public override bool ShowChildView(UIViewController viewController)
+        {
+            return base.ShowChildView(viewController);
+        }
+
+        //DISPARADO SEMPRE QUE UMA VIEW DE SEGUNDO NIVEL FECHA E VOLTA PARA VIEW PRINCIPAL DA TAB
+        public override bool CloseChildViewModel(MvvmCross.Core.ViewModels.IMvxViewModel viewModel)
+        {
+            return base.CloseChildViewModel(viewModel);
+        }
+
+        public override nint SelectedIndex
+        {
+            get
+            {
+                return base.SelectedIndex;
+            }
+            set
+            {
+                base.SelectedIndex = value;
+            }
+        }
+
+        public override void Select(Foundation.NSObject sender)
+        {
+            base.Select(sender);
+        }
+
+        public override void DidChangeValue(string forKey)
+        {
+            base.DidChangeValue(forKey);
         }
 
         //    public override bool ShowChildView(UIViewController viewController)

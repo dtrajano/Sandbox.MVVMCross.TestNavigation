@@ -8,7 +8,7 @@ using UIKit;
 namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.MyMenuView
 {
     [MvxFromStoryboard("MyMenuView")]
-    [MvxTabPresentation(WrapInNavigationController = false, TabIconName = "home", TabName = "My Menu")]
+    [MvxTabPresentation(WrapInNavigationController = true, TabIconName = "home", TabName = "My Menu")]
     public partial class MyMenuView : MvxViewController<MyMenuViewModel>
     {
         public MyMenuView(IntPtr handle) : base(handle)
