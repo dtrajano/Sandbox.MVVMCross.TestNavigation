@@ -89,6 +89,29 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.TabRootView
             base.DidChangeValue(forKey);
         }
 
+        public override void TouchesEnded(Foundation.NSSet touches, UIEvent evt)
+        {
+            base.TouchesEnded(touches, evt);
+        }
+
+        public override UIViewController SelectedViewController
+        {
+            get
+            {
+                return base.SelectedViewController;
+            }
+            set
+            {
+                base.SelectedViewController = value;
+            }
+        }
+
+        //DISPARADO SEMPRE QUE É FEITO UMA TROCA DE TAB
+        public override void ItemSelected(UITabBar tabbar, UITabBarItem item)
+        {
+            //base.ItemSelected(tabbar, item);
+        }
+
         //    public override bool ShowChildView(UIViewController viewController)
         //    {
         //        var type = viewController.GetType();

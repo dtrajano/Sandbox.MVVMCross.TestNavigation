@@ -30,3 +30,4 @@
 /Users/dtrajano/.nuget/packages/mvvmcross.binding/5.2.1/lib/Xamarin.iOS10/MvvmCross.Localization.dll
 /Users/dtrajano/.nuget/packages/mvvmcross.binding/5.2.1/lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll
 /Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/bin/Debug/netstandard1.4/Sandbox.MVVMCross.TestNavigation.Core.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.4/lib/mono/Xamarin.iOS/Facades/System.Console.dll

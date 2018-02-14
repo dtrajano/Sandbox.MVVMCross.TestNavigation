@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Sandbox_MVVMCross_TestNavigation.Droid</RootNamespace>
     <AssemblyName>Sandbox_MVVMCross_TestNavigation.Droid</AssemblyName>
-    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
@@ -74,9 +74,9 @@
     <Reference Include="Mono.Android.Export" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sandbox_MVVMCross_TestNavigation.Core\Sandbox_MVVMCross_TestNavigation.Core.csproj">
-      <Project>{BCDE0F24-E14A-4D07-9ED8-BBBCCA008803}</Project>
-      <Name>Sandbox_MVVMCross_TestNavigation.Core</Name>
+    <ProjectReference Include="..\Sandbox.MVVMCross.TestNavigation.Core\Sandbox.MVVMCross.TestNavigation.Core.csproj">
+      <Project>{AF6820AD-BD2F-4379-94A6-0910E721295D}</Project>
+      <Name>Sandbox.MVVMCross.TestNavigation.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
