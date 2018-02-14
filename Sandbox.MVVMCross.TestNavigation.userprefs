@@ -1,0 +1,13 @@
+﻿<Properties StartupConfiguration="{528D503E-5F99-48FA-A814-097EE9DF9664}|Default">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Sandbox.MVVMCross.TestNavigation.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1101EE7E-CF33-401F-B4DD-ADE0B87E9EEE" />
+  <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Sandbox.MVVMCross.TestNavigation.Droid.csproj</String>
+  </DisabledProjects>
+</Properties>
