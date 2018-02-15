@@ -39,8 +39,9 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
 
         public async Task CloseScreen()
         {
-            var result = await _navigationService.Navigate<MyProfileViewModel, string>();
-            Console.WriteLine("result: " + result);
+            _navigationService.Navigate<MyProfileViewModel, string>();
+            //var result = await _navigationService.Navigate<MyProfileViewModel, string>();
+            //Console.WriteLine("result: " + result);
             //Do something with the result MyReturnObject that you get back
         }
     }

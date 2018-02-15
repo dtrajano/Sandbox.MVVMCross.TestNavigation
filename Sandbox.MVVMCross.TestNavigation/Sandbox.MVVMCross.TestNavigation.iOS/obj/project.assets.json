@@ -449,19 +449,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/dtrajano/.nuget/packages/": {}
+    "/Users/mac/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Sandbox.MVVMCross.TestNavigation.iOS.csproj",
+      "projectUniqueName": "/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Sandbox.MVVMCross.TestNavigation.iOS.csproj",
       "projectName": "Sandbox.MVVMCross.TestNavigation.iOS",
-      "projectPath": "/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Sandbox.MVVMCross.TestNavigation.iOS.csproj",
-      "packagesPath": "/Users/dtrajano/.nuget/packages/",
-      "outputPath": "/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj",
+      "projectPath": "/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Sandbox.MVVMCross.TestNavigation.iOS.csproj",
+      "packagesPath": "/Users/mac/.nuget/packages/",
+      "outputPath": "/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/dtrajano/.config/NuGet/NuGet.Config"
+        "/Users/mac/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -472,8 +472,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/Sandbox.MVVMCross.TestNavigation.Core.csproj": {
-              "projectPath": "/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/Sandbox.MVVMCross.TestNavigation.Core.csproj"
+            "/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/Sandbox.MVVMCross.TestNavigation.Core.csproj": {
+              "projectPath": "/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/Sandbox.MVVMCross.TestNavigation.Core.csproj"
             }
           }
         }

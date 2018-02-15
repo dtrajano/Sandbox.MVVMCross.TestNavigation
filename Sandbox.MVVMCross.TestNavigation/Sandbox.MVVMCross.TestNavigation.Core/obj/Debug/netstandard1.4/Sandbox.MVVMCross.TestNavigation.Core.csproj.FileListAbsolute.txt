@@ -7,3 +7,12 @@
 /Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/obj/Debug/netstandard1.4/Sandbox.MVVMCross.TestNavigation.Core.AssemblyInfo.cs
 /Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/obj/Debug/netstandard1.4/Sandbox.MVVMCross.TestNavigation.Core.dll
 /Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/obj/Debug/netstandard1.4/Sandbox.MVVMCross.TestNavigation.Core.pdb
+/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/bin/Debug/netstandard1.4/Sandbox.MVVMCross.TestNavigation.Core.deps.json
+/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/bin/Debug/netstandard1.4/Sandbox.MVVMCross.TestNavigation.Core.dll
+/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/bin/Debug/netstandard1.4/Sandbox.MVVMCross.TestNavigation.Core.pdb
+/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/obj/Debug/netstandard1.4/Sandbox.MVVMCross.TestNavigation.Core.csprojResolveAssemblyReference.cache
+/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/obj/Debug/netstandard1.4/Sandbox.MVVMCross.TestNavigation.Core.csproj.CoreCompileInputs.cache
+/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/obj/Debug/netstandard1.4/Sandbox.MVVMCross.TestNavigation.Core.AssemblyInfoInputs.cache
+/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/obj/Debug/netstandard1.4/Sandbox.MVVMCross.TestNavigation.Core.AssemblyInfo.cs
+/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/obj/Debug/netstandard1.4/Sandbox.MVVMCross.TestNavigation.Core.dll
+/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/obj/Debug/netstandard1.4/Sandbox.MVVMCross.TestNavigation.Core.pdb

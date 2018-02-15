@@ -8,7 +8,7 @@ using UIKit;
 namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.TabRootView
 {
     [MvxFromStoryboard("TabRootView")]
-    [MvxRootPresentation(WrapInNavigationController = true)]
+    [MvxRootPresentation(WrapInNavigationController = false)]
     public partial class TabRootView : MvxTabBarViewController<TabRootViewModel>
     {
         private bool _isPresentedFirstTime = true;
@@ -35,8 +35,11 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.TabRootView
 
                 //var set = this.CreateBindingSet<TabRootView, TabRootViewModel>();
                 //set.Bind(this).For(v => v.SelectedIndex).To(vm => vm.ItemIndex);
+                //set.Bind(this.TabBarController).For(c=>c.SelectedIndex).To(vm => vm.ItemIndex);
                 //set.Apply();
             }
+
+            //NavigationController.NavigationBarHidden = true;
         }
 
         protected override void SetTitleAndTabBarItem(UIViewController viewController, MvxTabPresentationAttribute attribute)
@@ -44,9 +47,8 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.TabRootView
             // you can override this method to set title or iconName
             if (string.IsNullOrEmpty(attribute.TabName))
                 attribute.TabName = "Tab 2";
-            if (string.IsNullOrEmpty(attribute.TabIconName))
+            //if (string.IsNullOrEmpty(attribute.TabIconName))
                 attribute.TabIconName = "ic_tabbar_menu";
-
             base.SetTitleAndTabBarItem(viewController, attribute);
         }
 
@@ -109,27 +111,10 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.TabRootView
         //DISPARADO SEMPRE QUE É FEITO UMA TROCA DE TAB
         public override void ItemSelected(UITabBar tabbar, UITabBarItem item)
         {
-            //base.ItemSelected(tabbar, item);
+            int tabPosition = Convert.ToInt32(item.Tag);
+            ViewModel.ItemIndex = tabPosition;
+            ViewModel.clearStackPreferencesTabCommand.Execute(null);
         }
-
-        //    public override bool ShowChildView(UIViewController viewController)
-        //    {
-        //        var type = viewController.GetType();
-
-        //        return type == typeof(ChildView)
-        //            ? false
-        //            : base.ShowChildView(viewController);
-        //    }
-
-        //    public override bool CloseChildViewModel(IMvxViewModel viewModel)
-        //    {
-        //        var type = viewModel.GetType();
-
-        //        return type == typeof(ChildViewModel)
-        //            ? false
-        //            : base.CloseChildViewModel(viewModel);
-
-        //}
     }
 }
 

@@ -1,6 +1,7 @@
 using MvvmCross.Core.ViewModels;
 using MvvmCross.iOS.Platform;
 using MvvmCross.iOS.Views.Presenters;
+using MvvmCross.Platform;
 using MvvmCross.Platform.Platform;
 using Sandbox_MVVMCross_TestNavigation.iOS;
 using UIKit;
@@ -9,14 +10,20 @@ namespace Sandbox.MVVMCross.TestNavigation.iOS
 {
     public class Setup : MvxIosSetup
     {
+        private MvxApplicationDelegate _appDelegate;
+        private UIWindow _window;
         public Setup(MvxApplicationDelegate applicationDelegate, UIWindow window)
             : base(applicationDelegate, window)
         {
+            _appDelegate = applicationDelegate;
+            _window = window;
         }
 
         public Setup(MvxApplicationDelegate applicationDelegate, IMvxIosViewPresenter presenter)
             : base(applicationDelegate, presenter)
         {
+            _appDelegate = applicationDelegate;
+            _window = applicationDelegate.Window;
         }
 
         protected override IMvxApplication CreateApp()
@@ -27,6 +34,14 @@ namespace Sandbox.MVVMCross.TestNavigation.iOS
         protected override IMvxTrace CreateDebugTrace()
         {
             return new DebugTrace();
+        }
+
+        protected override IMvxIosViewPresenter CreatePresenter()
+        {
+            //return base.CreatePresenter();
+            var presenter = new CustomBaseViewPresenter(_appDelegate, _window);
+            Mvx.RegisterSingleton(presenter);
+            return presenter;
         }
     }
 }

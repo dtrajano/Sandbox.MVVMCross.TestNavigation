@@ -313,6 +313,22 @@
           "build/Xamarin.Build.Download.props": {},
           "build/Xamarin.Build.Download.targets": {}
         }
+      },
+      "Sandbox.MVVMCross.TestNavigation.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.4",
+        "dependencies": {
+          "MvvmCross": "5.2.1",
+          "MvvmCross.Binding": "5.2.1",
+          "MvvmCross.Core": "5.2.1",
+          "MvvmCross.Platform": "5.2.1"
+        },
+        "compile": {
+          "bin/placeholder/Sandbox.MVVMCross.TestNavigation.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sandbox.MVVMCross.TestNavigation.Core.dll": {}
+        }
       }
     }
   },
@@ -692,6 +708,11 @@
         "xamarin.build.download.0.4.7.nupkg.sha512",
         "xamarin.build.download.nuspec"
       ]
+    },
+    "Sandbox.MVVMCross.TestNavigation.Core/1.0.0": {
+      "type": "project",
+      "path": "../Sandbox.MVVMCross.TestNavigation.Core/Sandbox.MVVMCross.TestNavigation.Core.csproj",
+      "msbuildProject": "../Sandbox.MVVMCross.TestNavigation.Core/Sandbox.MVVMCross.TestNavigation.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -704,6 +725,7 @@
       "MvvmCross.Droid.Support.V7.AppCompat >= 5.2.1",
       "MvvmCross.Droid.Support.V7.RecyclerView >= 5.2.1",
       "MvvmCross.Platform >= 5.2.1",
+      "Sandbox.MVVMCross.TestNavigation.Core >= 1.0.0",
       "Xamarin.Android.Support.Animated.Vector.Drawable >= 25.4.0.2",
       "Xamarin.Android.Support.Annotations >= 25.4.0.2",
       "Xamarin.Android.Support.Compat >= 25.4.0.2",
@@ -720,19 +742,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/dtrajano/.nuget/packages/": {}
+    "/Users/mac/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Sandbox.MVVMCross.TestNavigation.Droid.csproj",
+      "projectUniqueName": "/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Sandbox.MVVMCross.TestNavigation.Droid.csproj",
       "projectName": "Sandbox.MVVMCross.TestNavigation.Droid",
-      "projectPath": "/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Sandbox.MVVMCross.TestNavigation.Droid.csproj",
-      "packagesPath": "/Users/dtrajano/.nuget/packages/",
-      "outputPath": "/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/obj",
+      "projectPath": "/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Sandbox.MVVMCross.TestNavigation.Droid.csproj",
+      "packagesPath": "/Users/mac/.nuget/packages/",
+      "outputPath": "/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/dtrajano/.config/NuGet/NuGet.Config"
+        "/Users/mac/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid80"
@@ -742,7 +764,11 @@
       },
       "frameworks": {
         "monoandroid80": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/Sandbox.MVVMCross.TestNavigation.Core.csproj": {
+              "projectPath": "/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/Sandbox.MVVMCross.TestNavigation.Core.csproj"
+            }
+          }
         }
       }
     },

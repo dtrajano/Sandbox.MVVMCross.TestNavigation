@@ -8,7 +8,7 @@ using UIKit;
 namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.PreferencesView
 {
     [MvxFromStoryboard("PreferencesView")]
-    [MvxTabPresentation(WrapInNavigationController = true, TabIconName = "home", TabName = "Preferences")]
+    [MvxTabPresentation(WrapInNavigationController = true, TabIconName = "ic_tabbar_menu", TabName = "Preferences")]
     public partial class PreferencesView : MvxViewController<PreferencesViewModel>
     {
         public PreferencesView(IntPtr handle) : base(handle)
@@ -27,6 +27,10 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.PreferencesView
         public override void ViewWillAppear(bool animated)
         {
             base.ViewWillAppear(animated);
+            NavigationController.Title = "Preferencias";
+            this.NavigationItem.Title = "Preferencias";
+            NavigationController.NavigationBarHidden = true;
+            this.TabBarController.TabBar.Hidden = false;
         }
 
         public override void DidReceiveMemoryWarning()

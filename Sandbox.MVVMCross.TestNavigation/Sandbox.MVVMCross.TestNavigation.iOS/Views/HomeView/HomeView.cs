@@ -8,7 +8,7 @@ using UIKit;
 namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.HomeView
 {
     [MvxFromStoryboard("HomeView")]
-    [MvxTabPresentation(WrapInNavigationController = true, TabIconName = "home", TabName = "Home")]
+    [MvxTabPresentation(WrapInNavigationController = false, TabIconName = "ic_tabbar_menu", TabName = "Home")]
     public partial class HomeView : MvxViewController<HomeViewModel>
     {
         public HomeView(IntPtr handle) : base(handle)
@@ -23,8 +23,12 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.HomeView
             set.Bind(lblTitleScreen).To(vm => vm.ScreenTitle);
             set.Bind(btnRedirectFirstOption).To(vm=>vm.redirectFirstOption);
             set.Apply();
-
             // Perform any additional setup after loading the view, typically from a nib.
+        }
+
+        public override void ViewWillAppear(bool animated)
+        {
+            base.ViewWillAppear(animated);
         }
 
         public override void DidReceiveMemoryWarning()

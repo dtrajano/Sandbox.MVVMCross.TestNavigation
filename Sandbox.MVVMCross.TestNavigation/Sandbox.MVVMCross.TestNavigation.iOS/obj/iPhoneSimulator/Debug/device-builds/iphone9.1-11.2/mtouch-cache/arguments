@@ -1,9 +1,9 @@
 # Version: 11.6.1.4 (xcode9.2: db807ec9)
 # [first argument, ignore] # --cache
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.4/lib/mtouch/mtouch.exe \
-	/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/mtouch-cache \
+	/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/mtouch-cache \
 	--sim \
-	/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/Sandbox_MVVMCross_TestNavigation.iOS.app \
+	/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/Sandbox_MVVMCross_TestNavigation.iOS.app \
 	--executable \
 	Sandbox_MVVMCross_TestNavigation.iOS \
 	--debug \
@@ -18,26 +18,26 @@
 	--http-message-handler=HttpClientHandler \
 	--abi=x86_64 \
 	--symbollist \
-	/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/mtouch-symbols.list \
+	/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/mtouch-symbols.list \
 	--dsym=no \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
-	/Users/dtrajano/.nuget/packages/mvvmcross.binding/5.2.1/lib/Xamarin.iOS10/MvvmCross.Binding.dll \
+	/Users/mac/.nuget/packages/mvvmcross.binding/5.2.1/lib/Xamarin.iOS10/MvvmCross.Binding.dll \
 	-r \
-	/Users/dtrajano/.nuget/packages/mvvmcross.binding/5.2.1/lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll \
+	/Users/mac/.nuget/packages/mvvmcross.binding/5.2.1/lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll \
 	-r \
-	/Users/dtrajano/.nuget/packages/mvvmcross.core/5.2.1/lib/Xamarin.iOS10/MvvmCross.Core.dll \
+	/Users/mac/.nuget/packages/mvvmcross.core/5.2.1/lib/Xamarin.iOS10/MvvmCross.Core.dll \
 	-r \
-	/Users/dtrajano/.nuget/packages/mvvmcross.core/5.2.1/lib/Xamarin.iOS10/MvvmCross.iOS.dll \
+	/Users/mac/.nuget/packages/mvvmcross.core/5.2.1/lib/Xamarin.iOS10/MvvmCross.iOS.dll \
 	-r \
-	/Users/dtrajano/.nuget/packages/mvvmcross.binding/5.2.1/lib/Xamarin.iOS10/MvvmCross.Localization.dll \
+	/Users/mac/.nuget/packages/mvvmcross.binding/5.2.1/lib/Xamarin.iOS10/MvvmCross.Localization.dll \
 	-r \
-	/Users/dtrajano/.nuget/packages/mvvmcross.platform/5.2.1/lib/Xamarin.iOS10/MvvmCross.Platform.dll \
+	/Users/mac/.nuget/packages/mvvmcross.platform/5.2.1/lib/Xamarin.iOS10/MvvmCross.Platform.dll \
 	-r \
-	/Users/dtrajano/.nuget/packages/mvvmcross.platform/5.2.1/lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll \
+	/Users/mac/.nuget/packages/mvvmcross.platform/5.2.1/lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll \
 	-r \
-	/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/bin/Debug/netstandard1.4/Sandbox.MVVMCross.TestNavigation.Core.dll \
+	/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/bin/Debug/netstandard1.4/Sandbox.MVVMCross.TestNavigation.Core.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
@@ -321,21 +321,21 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
 	-r \
-	/Users/dtrajano/.nuget/packages/mvvmcross.binding/5.2.1/lib/Xamarin.iOS10/MvvmCross.Binding.dll \
+	/Users/mac/.nuget/packages/mvvmcross.binding/5.2.1/lib/Xamarin.iOS10/MvvmCross.Binding.dll \
 	-r \
-	/Users/dtrajano/.nuget/packages/mvvmcross.binding/5.2.1/lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll \
+	/Users/mac/.nuget/packages/mvvmcross.binding/5.2.1/lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll \
 	-r \
-	/Users/dtrajano/.nuget/packages/mvvmcross.binding/5.2.1/lib/Xamarin.iOS10/MvvmCross.Localization.dll \
+	/Users/mac/.nuget/packages/mvvmcross.binding/5.2.1/lib/Xamarin.iOS10/MvvmCross.Localization.dll \
 	-r \
-	/Users/dtrajano/.nuget/packages/mvvmcross.core/5.2.1/lib/Xamarin.iOS10/MvvmCross.Core.dll \
+	/Users/mac/.nuget/packages/mvvmcross.core/5.2.1/lib/Xamarin.iOS10/MvvmCross.Core.dll \
 	-r \
-	/Users/dtrajano/.nuget/packages/mvvmcross.core/5.2.1/lib/Xamarin.iOS10/MvvmCross.iOS.dll \
+	/Users/mac/.nuget/packages/mvvmcross.core/5.2.1/lib/Xamarin.iOS10/MvvmCross.iOS.dll \
 	-r \
-	/Users/dtrajano/.nuget/packages/mvvmcross.platform/5.2.1/lib/Xamarin.iOS10/MvvmCross.Platform.dll \
+	/Users/mac/.nuget/packages/mvvmcross.platform/5.2.1/lib/Xamarin.iOS10/MvvmCross.Platform.dll \
 	-r \
-	/Users/dtrajano/.nuget/packages/mvvmcross.platform/5.2.1/lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll \
+	/Users/mac/.nuget/packages/mvvmcross.platform/5.2.1/lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll \
 	-r \
-	/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/bin/Debug/netstandard1.4/Sandbox.MVVMCross.TestNavigation.Core.dll \
+	/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/bin/Debug/netstandard1.4/Sandbox.MVVMCross.TestNavigation.Core.dll \
 	--target-framework \
 	'Xamarin.iOS,v1.0' \
-	/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/bin/iPhoneSimulator/Debug/Sandbox_MVVMCross_TestNavigation.iOS.exe \
+	/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/bin/iPhoneSimulator/Debug/Sandbox_MVVMCross_TestNavigation.iOS.exe \

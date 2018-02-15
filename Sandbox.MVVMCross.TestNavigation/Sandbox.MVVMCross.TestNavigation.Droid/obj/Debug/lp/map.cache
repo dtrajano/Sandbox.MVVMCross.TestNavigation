@@ -9,6 +9,7 @@ MvvmCross.Droid.Support.V7.RecyclerView
 MvvmCross.Localization
 MvvmCross.Platform
 MvvmCross.Platform.Droid
+Sandbox.MVVMCross.TestNavigation.Core
 System.Runtime
 Xamarin.Android.Support.Animated.Vector.Drawable
 Xamarin.Android.Support.Annotations
@@ -22,9 +23,8 @@ Xamarin.Android.Support.Transition
 Xamarin.Android.Support.v7.AppCompat
 Xamarin.Android.Support.v7.RecyclerView
 Xamarin.Android.Support.Vector.Drawable
-System.Reflection.Extensions
-Sandbox.MVVMCross.TestNavigation.Core
 System.Diagnostics.Debug
 System.Threading.Tasks
 System.Collections
 System.Console
+System.Reflection.Extensions

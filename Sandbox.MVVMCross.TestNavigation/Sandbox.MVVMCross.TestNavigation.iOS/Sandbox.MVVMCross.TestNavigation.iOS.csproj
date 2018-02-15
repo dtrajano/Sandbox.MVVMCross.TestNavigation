@@ -117,6 +117,7 @@
     <Compile Include="Views\MyProfileView\MyProfileView.designer.cs">
       <DependentUpon>MyProfileView.cs</DependentUpon>
     </Compile>
+    <Compile Include="CustomBaseViewPresenter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Setup.cs" />

@@ -3981,23 +3981,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/dtrajano/.nuget/packages/": {},
+    "/Users/mac/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/Sandbox.MVVMCross.TestNavigation.Core.csproj",
+      "projectUniqueName": "/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/Sandbox.MVVMCross.TestNavigation.Core.csproj",
       "projectName": "Sandbox.MVVMCross.TestNavigation.Core",
-      "projectPath": "/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/Sandbox.MVVMCross.TestNavigation.Core.csproj",
-      "packagesPath": "/Users/dtrajano/.nuget/packages/",
-      "outputPath": "/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/obj",
+      "projectPath": "/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/Sandbox.MVVMCross.TestNavigation.Core.csproj",
+      "packagesPath": "/Users/mac/.nuget/packages/",
+      "outputPath": "/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/dtrajano/.config/NuGet/NuGet.Config"
+        "/Users/mac/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard1.4"

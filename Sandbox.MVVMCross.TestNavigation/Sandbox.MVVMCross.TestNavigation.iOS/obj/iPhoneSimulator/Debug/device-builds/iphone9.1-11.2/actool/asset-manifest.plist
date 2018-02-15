@@ -6,10 +6,10 @@
 	<dict>
 		<key>output-files</key>
 		<array>
-			<string>/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/bundle/AppIcon60x60@2x.png</string>
-			<string>/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/bundle/AppIcon76x76@2x~ipad.png</string>
-			<string>/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/bundle/Assets.car</string>
-			<string>/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/partial-info.plist</string>
+			<string>/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/bundle/AppIcon60x60@2x.png</string>
+			<string>/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/bundle/AppIcon76x76@2x~ipad.png</string>
+			<string>/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/bundle/Assets.car</string>
+			<string>/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/partial-info.plist</string>
 		</array>
 	</dict>
 	<key>com.apple.actool.document.notices</key>
@@ -20,7 +20,7 @@
 				<string>./AppIcon.appiconset/[][iphone][57x57][][][1x][][]</string>
 			</array>
 			<key>catalog</key>
-			<string>/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/cloned-assets/Assets.xcassets</string>
+			<string>/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>57x57 app icons only apply to iPhone apps targeting releases of iOS prior to 7.0</string>
 			<key>type</key>
@@ -32,7 +32,7 @@
 				<string>./AppIcon.appiconset/[][iphone][57x57][][][2x][][]</string>
 			</array>
 			<key>catalog</key>
-			<string>/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/cloned-assets/Assets.xcassets</string>
+			<string>/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>57x57@2x app icons only apply to iPhone apps targeting releases of iOS prior to 7.0</string>
 			<key>type</key>
@@ -44,7 +44,7 @@
 				<string>./AppIcon.appiconset/[][ipad][50x50][][][1x][][]</string>
 			</array>
 			<key>catalog</key>
-			<string>/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/cloned-assets/Assets.xcassets</string>
+			<string>/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>50x50 iPad spotlight icons only apply to iPad apps targeting releases of iOS prior to 7.0</string>
 			<key>type</key>
@@ -56,7 +56,7 @@
 				<string>./AppIcon.appiconset/[][ipad][50x50][][][2x][][]</string>
 			</array>
 			<key>catalog</key>
-			<string>/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/cloned-assets/Assets.xcassets</string>
+			<string>/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>50x50 iPad spotlight icons only apply to iPad apps targeting releases of iOS prior to 7.0</string>
 			<key>type</key>
@@ -68,7 +68,7 @@
 				<string>./AppIcon.appiconset/[][ipad][72x72][][][1x][][]</string>
 			</array>
 			<key>catalog</key>
-			<string>/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/cloned-assets/Assets.xcassets</string>
+			<string>/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>72x72 app icons only apply to iPad apps targeting releases of iOS prior to 7.0</string>
 			<key>type</key>
@@ -80,7 +80,7 @@
 				<string>./AppIcon.appiconset/[][ipad][72x72][][][2x][][]</string>
 			</array>
 			<key>catalog</key>
-			<string>/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/cloned-assets/Assets.xcassets</string>
+			<string>/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>72x72@2x app icons only apply to iPad apps targeting releases of iOS prior to 7.0</string>
 			<key>type</key>
@@ -92,7 +92,7 @@
 				<string>./AppIcon.appiconset/[][ipad][76x76][][][1x][][]</string>
 			</array>
 			<key>catalog</key>
-			<string>/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/cloned-assets/Assets.xcassets</string>
+			<string>/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>76x76@1x app icons only apply to iPad apps targeting releases of iOS prior to 10.0.</string>
 			<key>type</key>
@@ -107,7 +107,7 @@
 				<string>./AppIcon.appiconset</string>
 			</array>
 			<key>catalog</key>
-			<string>/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/cloned-assets/Assets.xcassets</string>
+			<string>/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>A 1024x1024 app store icon is required for iOS apps</string>
 			<key>type</key>
@@ -122,7 +122,7 @@
 				<string>./AppIcon.appiconset/[][iphone][76x76][][][1x][][][2d][Icon-App-76x76_1x.png]</string>
 			</array>
 			<key>catalog</key>
-			<string>/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/cloned-assets/Assets.xcassets</string>
+			<string>/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>The app icon set "AppIcon" has 4 unassigned children.</string>
 			<key>type</key>
@@ -137,7 +137,7 @@
 				<string>./AppIcon.appiconset/[][iphone][76x76][][][1x][][][2d][Icon-App-76x76_1x.png]</string>
 			</array>
 			<key>catalog</key>
-			<string>/Users/dtrajano/Workspaces/Sandbox/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/cloned-assets/Assets.xcassets</string>
+			<string>/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>The app icon set "AppIcon" has 4 unassigned children.</string>
 			<key>type</key>

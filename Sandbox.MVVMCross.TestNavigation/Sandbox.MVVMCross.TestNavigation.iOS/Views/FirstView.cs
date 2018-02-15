@@ -21,6 +21,7 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views
             set.Bind(TextField).To(vm => vm.Hello);
             set.Bind(btnRedirect).To(vm=>vm.redirectToTabRoot);
             set.Apply();
+            NavigationController.NavigationBarHidden = true;
         }
     }
 }

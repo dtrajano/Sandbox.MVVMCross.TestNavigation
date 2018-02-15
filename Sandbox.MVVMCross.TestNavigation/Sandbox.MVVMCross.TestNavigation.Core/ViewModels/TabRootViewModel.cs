@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using MvvmCross.Core.Navigation;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform.Platform;
+using Sandbox.MVVMCross.TestNavigation.Core.Hints;
 
 namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
 {
@@ -13,7 +14,8 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
         private IMvxNavigationService _navigationService;
 
         public IMvxAsyncCommand ShowInitialViewModelsCommand { get; private set; }
-        public IMvxAsyncCommand ShowTabsRootBCommand { get; private set; }
+        public IMvxAsyncCommand ShowTabRootCommand { get; private set; }
+        public MvxCommand clearStackPreferencesTabCommand { get; private set; }
 
 
         public TabRootViewModel(IMvxNavigationService navigationService)
@@ -21,7 +23,8 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
             _navigationService = navigationService ?? throw new ArgumentNullException(nameof(navigationService));
 
             ShowInitialViewModelsCommand = new MvxAsyncCommand(ShowInitialViewModels);
-            ShowTabsRootBCommand = new MvxAsyncCommand(async () => await _navigationService.Navigate<TabRootViewModel>());
+            ShowTabRootCommand = new MvxAsyncCommand(async () => await _navigationService.Navigate<TabRootViewModel>());
+            clearStackPreferencesTabCommand = new MvxCommand(() => ClearBackStack<PreferencesViewModel>());
         }
 
         private async Task ShowInitialViewModels()
@@ -45,6 +48,12 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
                 MvxTrace.Trace("Tab item changed to {0}", _itemIndex.ToString());
                 RaisePropertyChanged(() => ItemIndex);
             }
+        }
+
+        protected void ClearBackStack<TViewModel>() where TViewModel : IMvxViewModel
+        {
+            //ShowViewModel<TViewModel>();
+            ChangePresentation(new ClearNavBackStackHint(this.ItemIndex));
         }
     }
 }
