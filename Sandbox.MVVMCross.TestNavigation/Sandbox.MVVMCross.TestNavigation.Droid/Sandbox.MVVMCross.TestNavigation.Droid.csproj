@@ -107,6 +107,10 @@
     <AndroidResource Include="Resources\values\strings.xml" />
     <AndroidResource Include="Resources\values\styles.xml" />
     <AndroidResource Include="Resources\values-v21\styles.xml" />
+    <AndroidResource Include="Resources\layout\TabRootView.axml" />
+    <AndroidResource Include="Resources\layout\HomeView.axml" />
+    <AndroidResource Include="Resources\layout\MyMenuView.axml" />
+    <AndroidResource Include="Resources\layout\PreferencesView.axml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
@@ -121,6 +125,10 @@
     <Compile Include="Views\FirstView.cs" />
     <Compile Include="Views\BaseView.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Views\TabRootView\TabRootView.cs" />
+    <Compile Include="Views\PreferencesView\PreferencesView.cs" />
+    <Compile Include="Views\MyMenuView\MyMenuView.cs" />
+    <Compile Include="Views\HomeView\HomeView.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\AboutAssets.txt" />

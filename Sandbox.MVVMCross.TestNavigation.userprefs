@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{898C3857-A5B2-4F10-BE6F-02A349610AAC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/SplashScreen.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Views/HomeView/HomeView.cs">
     <Files>
-      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Views/BaseView.cs" Line="5" Column="43" />
-      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Views/FirstView.cs" Line="4" Column="43" />
-      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/SplashScreen.cs" Line="5" Column="43" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Views/HomeView/HomeView.cs" Line="20" Column="129" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Views/MyMenuView/MyMenuView.cs" Line="20" Column="132" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Views/PreferencesView/PreferencesView.cs" Line="35" Column="75" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/ViewModels/TabRootViewModel.cs" Line="30" Column="49" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Views/TabRootView/TabRootView.cs" Line="32" Column="55" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -12,6 +14,6 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Sandbox.MVVMCross.TestNavigation.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.992FA722-E1FD-49B7-9DC6-34D9F426F0BC" />
-  <MonoDevelop.Ide.ItemProperties.Sandbox.MVVMCross.TestNavigation.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.ItemProperties.Sandbox.MVVMCross.TestNavigation.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" AndroidDesignerPreferredTheme="MyTheme" />
   <MultiItemStartupConfigurations />
 </Properties>
