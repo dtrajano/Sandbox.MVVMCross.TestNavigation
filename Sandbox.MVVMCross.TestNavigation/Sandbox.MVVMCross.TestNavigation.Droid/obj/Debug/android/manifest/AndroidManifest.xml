@@ -5,13 +5,13 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="@string/ApplicationName" android:icon="@mipmap/ic_launcher" android:theme="@style/MyTheme" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
-    <activity android:icon="@mipmap/ic_launcher" android:label="Sandbox_MVVMCross_TestNavigation" android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/Theme.Splash" android:name="md54107d2ec3eeeb175f5243f2bd6ffb869.SplashScreen">
+    <activity android:icon="@mipmap/ic_launcher" android:label="Sandbox_MVVMCross_TestNavigation" android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/Theme.Splash" android:name="md5594e5386c9a186692095997697dc7a16.SplashScreen">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="View for FirstViewModel" android:name="md5d7804fa0c7d06a5d702ca1c5063b7d47.FirstView" />
+    <activity android:label="View for FirstViewModel" android:name="md55a52c10fd425e3d0eb795076e4dc3092.FirstView" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.companyname.Sandbox_MVVMCross_TestNavigation.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

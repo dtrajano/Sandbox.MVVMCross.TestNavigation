@@ -1,7 +1,7 @@
 using Android.App;
 using Android.OS;
 
-namespace Sandbox_MVVMCross_TestNavigation.Droid.Views
+namespace Sandbox.MVVMCross.TestNavigation.Droid.Views
 {
     [Activity(Label = "View for FirstViewModel")]
     public class FirstView : BaseView

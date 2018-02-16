@@ -51,6 +51,5 @@
 /Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/obj/Debug/android/assets/System.Text.RegularExpressions.dll
 /Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/obj/Debug/android/assets/System.Dynamic.Runtime.dll
 /Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/obj/Debug/android/assets/System.IO.dll
-/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/obj/Debug/android/assets/System.Console.dll
 /Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/obj/Debug/android/assets/Mono.Security.dll
 /Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/obj/Debug/android/assets/System.ComponentModel.Composition.dll

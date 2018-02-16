@@ -7,7 +7,7 @@
     <ProjectGuid>{898C3857-A5B2-4F10-BE6F-02A349610AAC}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>Sandbox_MVVMCross_TestNavigation.Droid</RootNamespace>
+    <RootNamespace>Sandbox.MVVMCross.TestNavigation.Droid</RootNamespace>
     <AssemblyName>Sandbox_MVVMCross_TestNavigation.Droid</AssemblyName>
     <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>

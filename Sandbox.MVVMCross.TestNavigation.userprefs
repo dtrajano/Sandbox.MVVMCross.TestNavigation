@@ -1,14 +1,9 @@
-﻿<Properties StartupConfiguration="{528D503E-5F99-48FA-A814-097EE9DF9664}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Views/PreferencesView/PreferencesView.cs">
+﻿<Properties StartupConfiguration="{898C3857-A5B2-4F10-BE6F-02A349610AAC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/SplashScreen.cs">
     <Files>
-      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/CustomBaseViewPresenter.cs" Line="31" Column="17" />
-      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/ViewModels/TabRootViewModel.cs" Line="15" Column="9" />
-      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Views/TabRootView/TabRootView.cs" Line="116" Column="13" />
-      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Main.cs" Line="12" Column="1" />
-      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/ViewModels/PreferencesViewModel.cs" Line="38" Column="10" />
-      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/ViewModels/MyProfileViewModel.cs" Line="41" Column="10" />
-      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Views/MyProfileView/MyProfileView.cs" Line="35" Column="13" />
-      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Views/PreferencesView/PreferencesView.cs" Line="11" Column="24" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Views/BaseView.cs" Line="5" Column="43" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Views/FirstView.cs" Line="4" Column="43" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/SplashScreen.cs" Line="5" Column="43" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -17,8 +12,6 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Sandbox.MVVMCross.TestNavigation.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.992FA722-E1FD-49B7-9DC6-34D9F426F0BC" />
+  <MonoDevelop.Ide.ItemProperties.Sandbox.MVVMCross.TestNavigation.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
   <MultiItemStartupConfigurations />
-  <DisabledProjects>
-    <String>Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Sandbox.MVVMCross.TestNavigation.Droid.csproj</String>
-  </DisabledProjects>
 </Properties>

@@ -2,7 +2,7 @@ using Android.OS;
 using Android.Support.V7.Widget;
 using MvvmCross.Droid.Support.V7.AppCompat;
 
-namespace Sandbox_MVVMCross_TestNavigation.Droid.Views
+namespace Sandbox.MVVMCross.TestNavigation.Droid.Views
 {
     public abstract class BaseView : MvxAppCompatActivity
     {

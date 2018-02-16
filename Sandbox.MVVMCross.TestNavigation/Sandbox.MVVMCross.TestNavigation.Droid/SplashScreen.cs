@@ -2,7 +2,7 @@ using Android.App;
 using Android.Content.PM;
 using MvvmCross.Droid.Views;
 
-namespace Sandbox_MVVMCross_TestNavigation.Droid
+namespace Sandbox.MVVMCross.TestNavigation.Droid
 {
     [Activity(
         Label = "Sandbox_MVVMCross_TestNavigation"

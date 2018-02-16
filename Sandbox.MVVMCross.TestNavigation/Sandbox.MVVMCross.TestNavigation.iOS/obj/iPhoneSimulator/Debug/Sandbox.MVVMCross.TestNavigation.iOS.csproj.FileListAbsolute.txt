@@ -47,8 +47,8 @@
 /Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/Sandbox.MVVMCross.TestNavigation.iOS.csproj.CoreCompileInputs.cache
 /Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/Sandbox_MVVMCross_TestNavigation.iOS.exe
 /Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/Sandbox_MVVMCross_TestNavigation.iOS.pdb
-/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/ibtool/_BundleResourceWithLogicalName.items
-/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/_PartialAppManifest.items
-/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/actool/_BundleResourceWithLogicalName.items
-/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/optimized/Entitlements.plist
-/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-11.2/optimized/
+/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/optimized/Entitlements.plist
+/Users/mac/Projetos/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/obj/iPhoneSimulator/Debug/optimized/
