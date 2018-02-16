@@ -15,7 +15,7 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid.Views
         {
             base.OnCreate(bundle);
 
-            SupportActionBar.SetDisplayHomeAsUpEnabled(false);
+            SupportActionBar.SetDisplayHomeAsUpEnabled(true);
 
             Button btnRedirect = FindViewById<Button>(Resource.Id.btnRedirect);
 

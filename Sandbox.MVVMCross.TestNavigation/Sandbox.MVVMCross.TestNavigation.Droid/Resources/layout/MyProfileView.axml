@@ -7,20 +7,10 @@
     android:minWidth="25px"
     android:minHeight="25px">
     <TextView
-        android:text="aaaaa"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/lblTitleScreen"
+        android:text="asdsad"
         local:MvxBind="Text ScreenTitle" />
-    <Button
-        android:text="Meu Perfil"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnMyProfile"
-        local:MvxBind="Click redirectToMyProfile" />
-    <FrameLayout
-        android:id="@+id/nested_frame"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
 </LinearLayout>

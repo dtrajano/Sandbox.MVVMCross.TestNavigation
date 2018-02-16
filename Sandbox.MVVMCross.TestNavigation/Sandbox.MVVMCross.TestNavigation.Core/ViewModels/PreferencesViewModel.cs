@@ -21,7 +21,7 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
             //{
             //    return new MvxCommand(() => ShowViewModel<MyProfileViewModel>());
             //}
-            get { return new MvxAsyncCommand(async() => await CloseScreen()); }
+            get { return new MvxAsyncCommand(async() => await RedirectToMyProfile()); }
         }
 
         IMvxNavigationService _navigationService;
@@ -37,9 +37,9 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
             ScreenTitle = title;
         }
 
-        public async Task CloseScreen()
+        public async Task RedirectToMyProfile()
         {
-            _navigationService.Navigate<MyProfileViewModel, string>();
+            await _navigationService.Navigate<MyProfileViewModel>();
             //var result = await _navigationService.Navigate<MyProfileViewModel, string>();
             //Console.WriteLine("result: " + result);
             //Do something with the result MyReturnObject that you get back

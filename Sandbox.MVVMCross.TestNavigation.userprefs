@@ -1,11 +1,8 @@
 ﻿<Properties StartupConfiguration="{898C3857-A5B2-4F10-BE6F-02A349610AAC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Views/HomeView/HomeView.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Views/MyProfile/MyProfileView.cs">
     <Files>
-      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Views/HomeView/HomeView.cs" Line="20" Column="129" />
-      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Views/MyMenuView/MyMenuView.cs" Line="20" Column="132" />
-      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Views/PreferencesView/PreferencesView.cs" Line="35" Column="75" />
-      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/ViewModels/TabRootViewModel.cs" Line="30" Column="49" />
-      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Views/TabRootView/TabRootView.cs" Line="32" Column="55" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Views/MyProfile/MyProfileView.cs" Line="23" Column="30" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Views/PreferencesView/PreferencesView.cs" Line="20" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
