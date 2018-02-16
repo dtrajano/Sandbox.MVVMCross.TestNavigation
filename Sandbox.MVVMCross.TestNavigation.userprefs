@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{898C3857-A5B2-4F10-BE6F-02A349610AAC}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Views/MyProfile/MyProfileView.cs">
     <Files>
-      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Views/MyProfile/MyProfileView.cs" Line="23" Column="30" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Views/MyProfile/MyProfileView.cs" Line="23" Column="126" />
       <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Views/PreferencesView/PreferencesView.cs" Line="20" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
