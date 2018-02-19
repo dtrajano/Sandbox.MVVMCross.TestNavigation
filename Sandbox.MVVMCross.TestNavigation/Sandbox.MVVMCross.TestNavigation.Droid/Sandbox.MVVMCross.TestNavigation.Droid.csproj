@@ -91,6 +91,7 @@
     <Folder Include="Views\MyProfile\" />
     <Folder Include="Resources\menu\" />
     <Folder Include="Views\AddressView\" />
+    <Folder Include="NativeServices\" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\splash.png" />
@@ -139,6 +140,7 @@
     <Compile Include="Views\MyProfile\MyProfileView.cs" />
     <Compile Include="Views\RootView.cs" />
     <Compile Include="Views\AddressView\AddressView.cs" />
+    <Compile Include="NativeServices\RSAEncryption.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\AboutAssets.txt" />

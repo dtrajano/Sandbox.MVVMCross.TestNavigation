@@ -122,6 +122,7 @@
     <Compile Include="Views\AddressView\AddressView.designer.cs">
       <DependentUpon>AddressView.cs</DependentUpon>
     </Compile>
+    <Compile Include="NativeServices\RSAEncryption.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Setup.cs" />
@@ -247,6 +248,7 @@
     <Folder Include="Assets.xcassets\icnmymenu.imageset\" />
     <Folder Include="Assets.xcassets\icnhome.imageset\" />
     <Folder Include="Views\AddressView\" />
+    <Folder Include="NativeServices\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
