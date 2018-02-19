@@ -89,6 +89,7 @@
     <Folder Include="Views\MyMenuView\" />
     <Folder Include="Views\PreferencesView\" />
     <Folder Include="Views\MyProfile\" />
+    <Folder Include="Resources\menu\" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\splash.png" />
@@ -114,6 +115,7 @@
     <AndroidResource Include="Resources\layout\PreferencesView.axml" />
     <AndroidResource Include="Resources\layout\MyProfileView.axml" />
     <AndroidResource Include="Resources\layout\RootView.axml" />
+    <AndroidResource Include="Resources\menu\menu_top.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />

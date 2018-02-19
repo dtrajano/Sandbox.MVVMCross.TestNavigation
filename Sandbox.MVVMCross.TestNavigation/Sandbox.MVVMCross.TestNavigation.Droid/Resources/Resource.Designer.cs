@@ -4426,6 +4426,15 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid
 			// aapt resource value: 0x7f09008f
 			public const int media_actions = 2131296399;
 			
+			// aapt resource value: 0x7f0900a7
+			public const int menu_edit = 2131296423;
+			
+			// aapt resource value: 0x7f0900a9
+			public const int menu_preferences = 2131296425;
+			
+			// aapt resource value: 0x7f0900a8
+			public const int menu_save = 2131296424;
+			
 			// aapt resource value: 0x7f090024
 			public const int middle = 2131296292;
 			
@@ -4941,6 +4950,22 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f100000
+			public const int menu_top = 2131755008;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
 			{
 			}
 		}

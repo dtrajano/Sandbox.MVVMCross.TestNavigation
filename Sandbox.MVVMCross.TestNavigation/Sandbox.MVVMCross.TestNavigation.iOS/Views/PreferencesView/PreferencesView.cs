@@ -8,7 +8,7 @@ using UIKit;
 namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.PreferencesView
 {
     [MvxFromStoryboard("PreferencesView")]
-    [MvxTabPresentation(WrapInNavigationController = true, TabIconName = "ic_tabbar_menu", TabName = "Preferences")]
+    [MvxTabPresentation(WrapInNavigationController = true, TabIconName = "icnpreferencias", TabName = "Preferências")]
     public partial class PreferencesView : MvxViewController<PreferencesViewModel>
     {
         public PreferencesView(IntPtr handle) : base(handle)
