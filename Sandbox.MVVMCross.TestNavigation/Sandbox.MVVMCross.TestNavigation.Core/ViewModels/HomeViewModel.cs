@@ -43,8 +43,8 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
         {
             base.Prepare();
             ScreenTitle = title;
-            EncryptedText = _rsaEncryption.Encrypt(title);
-            DecryptedText = _rsaEncryption.Decrypt(EncryptedText);
+            //EncryptedText = _rsaEncryption.Encrypt(title);
+            //DecryptedText = _rsaEncryption.Decrypt(EncryptedText);
         }
 
         public override void ViewAppeared()
