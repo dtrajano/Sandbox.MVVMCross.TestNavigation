@@ -1,7 +1,10 @@
 using Android.Content;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Droid.Support.V7.AppCompat;
+using MvvmCross.Platform;
 using MvvmCross.Platform.Platform;
+using Sandbox.MVVMCross.TestNavigation.Core.NativeServices.Contracts;
+using Sandbox.MVVMCross.TestNavigation.Droid.NativeServices;
 using Sandbox_MVVMCross_TestNavigation.Droid;
 
 namespace Sandbox.MVVMCross.TestNavigation.Droid
@@ -20,6 +23,12 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid
         protected override IMvxTrace CreateDebugTrace()
         {
             return new DebugTrace();
+        }
+
+        protected override void InitializeFirstChance()
+        {
+            Mvx.RegisterSingleton<IRSAEncryption>(new RSAEncryption());
+            base.InitializeFirstChance();
         }
     }
 }

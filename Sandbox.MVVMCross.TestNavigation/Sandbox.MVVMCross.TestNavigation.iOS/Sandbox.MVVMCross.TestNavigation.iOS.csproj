@@ -118,6 +118,7 @@
       <DependentUpon>MyProfileView.cs</DependentUpon>
     </Compile>
     <Compile Include="CustomBaseViewPresenter.cs" />
+    <Compile Include="NativeServices\RSAEncryption.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Setup.cs" />
@@ -227,6 +228,7 @@
     <Folder Include="Views\PreferencesView\" />
     <Folder Include="Views\TabRootView\" />
     <Folder Include="Views\MyProfileView\" />
+    <Folder Include="NativeServices\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

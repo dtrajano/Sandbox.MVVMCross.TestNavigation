@@ -16,5 +16,7 @@
     
   <ItemGroup>
     <Folder Include="Hints\" />
+    <Folder Include="NativeServices\" />
+    <Folder Include="NativeServices\Contracts\" />
   </ItemGroup>
 </Project>
