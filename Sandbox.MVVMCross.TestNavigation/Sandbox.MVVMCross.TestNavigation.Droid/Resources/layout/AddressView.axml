@@ -4,6 +4,15 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar_layout">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"
+            local:layout_scrollFlags="scroll|enterAlways" />
+    </android.support.design.widget.AppBarLayout>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

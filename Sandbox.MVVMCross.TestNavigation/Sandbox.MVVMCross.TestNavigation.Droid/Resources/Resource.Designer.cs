@@ -4270,8 +4270,8 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid
 			// aapt resource value: 0x7f09008a
 			public const int btnRedirect = 2131296394;
 			
-			// aapt resource value: 0x7f090078
-			public const int btnVoltar = 2131296376;
+			// aapt resource value: 0x7f09007a
+			public const int btnVoltar = 2131296378;
 			
 			// aapt resource value: 0x7f09004d
 			public const int buttonPanel = 2131296333;
@@ -4303,8 +4303,8 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid
 			// aapt resource value: 0x7f090026
 			public const int collapseActionView = 2131296294;
 			
-			// aapt resource value: 0x7f09007b
-			public const int container = 2131296379;
+			// aapt resource value: 0x7f09007d
+			public const int container = 2131296381;
 			
 			// aapt resource value: 0x7f090050
 			public const int contentPanel = 2131296336;
@@ -4312,8 +4312,8 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid
 			// aapt resource value: 0x7f090089
 			public const int content_frame = 2131296393;
 			
-			// aapt resource value: 0x7f09007c
-			public const int coordinator = 2131296380;
+			// aapt resource value: 0x7f09007e
+			public const int coordinator = 2131296382;
 			
 			// aapt resource value: 0x7f090057
 			public const int custom = 2131296343;
@@ -4327,20 +4327,20 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid
 			// aapt resource value: 0x7f090049
 			public const int default_activity_button = 2131296329;
 			
-			// aapt resource value: 0x7f09007e
-			public const int design_bottom_sheet = 2131296382;
+			// aapt resource value: 0x7f090080
+			public const int design_bottom_sheet = 2131296384;
+			
+			// aapt resource value: 0x7f090087
+			public const int design_menu_item_action_area = 2131296391;
+			
+			// aapt resource value: 0x7f090086
+			public const int design_menu_item_action_area_stub = 2131296390;
 			
 			// aapt resource value: 0x7f090085
-			public const int design_menu_item_action_area = 2131296389;
+			public const int design_menu_item_text = 2131296389;
 			
 			// aapt resource value: 0x7f090084
-			public const int design_menu_item_action_area_stub = 2131296388;
-			
-			// aapt resource value: 0x7f090083
-			public const int design_menu_item_text = 2131296387;
-			
-			// aapt resource value: 0x7f090082
-			public const int design_navigation_view = 2131296386;
+			public const int design_navigation_view = 2131296388;
 			
 			// aapt resource value: 0x7f090014
 			public const int disableHome = 2131296276;
@@ -4405,8 +4405,8 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid
 			// aapt resource value: 0x7f090000
 			public const int item_touch_helper_previous_elevation = 2131296256;
 			
-			// aapt resource value: 0x7f09007a
-			public const int largeLabel = 2131296378;
+			// aapt resource value: 0x7f09007c
+			public const int largeLabel = 2131296380;
 			
 			// aapt resource value: 0x7f09008e
 			public const int lblCep = 2131296398;
@@ -4459,8 +4459,8 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid
 			// aapt resource value: 0x7f09001b
 			public const int multiply = 2131296283;
 			
-			// aapt resource value: 0x7f090081
-			public const int navigation_header_container = 2131296385;
+			// aapt resource value: 0x7f090083
+			public const int navigation_header_container = 2131296387;
 			
 			// aapt resource value: 0x7f0900a9
 			public const int nested_frame = 2131296425;
@@ -4573,14 +4573,14 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid
 			// aapt resource value: 0x7f090019
 			public const int showTitle = 2131296281;
 			
-			// aapt resource value: 0x7f090079
-			public const int smallLabel = 2131296377;
+			// aapt resource value: 0x7f09007b
+			public const int smallLabel = 2131296379;
 			
-			// aapt resource value: 0x7f090080
-			public const int snackbar_action = 2131296384;
+			// aapt resource value: 0x7f090082
+			public const int snackbar_action = 2131296386;
 			
-			// aapt resource value: 0x7f09007f
-			public const int snackbar_text = 2131296383;
+			// aapt resource value: 0x7f090081
+			public const int snackbar_text = 2131296385;
 			
 			// aapt resource value: 0x7f090030
 			public const int snap = 2131296304;
@@ -4633,8 +4633,8 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid
 			// aapt resource value: 0x7f09008b
 			public const int textView1 = 2131296395;
 			
-			// aapt resource value: 0x7f090086
-			public const int text_input_password_toggle = 2131296390;
+			// aapt resource value: 0x7f090088
+			public const int text_input_password_toggle = 2131296392;
 			
 			// aapt resource value: 0x7f09000c
 			public const int textinput_counter = 2131296268;
@@ -4654,11 +4654,11 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid
 			// aapt resource value: 0x7f090059
 			public const int title_template = 2131296345;
 			
-			// aapt resource value: 0x7f090088
-			public const int toolbar = 2131296392;
+			// aapt resource value: 0x7f090076
+			public const int toolbar = 2131296374;
 			
-			// aapt resource value: 0x7f090087
-			public const int toolbar_layout = 2131296391;
+			// aapt resource value: 0x7f090075
+			public const int toolbar_layout = 2131296373;
 			
 			// aapt resource value: 0x7f09002b
 			public const int top = 2131296299;
@@ -4666,8 +4666,8 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid
 			// aapt resource value: 0x7f090058
 			public const int topPanel = 2131296344;
 			
-			// aapt resource value: 0x7f09007d
-			public const int touch_outside = 2131296381;
+			// aapt resource value: 0x7f09007f
+			public const int touch_outside = 2131296383;
 			
 			// aapt resource value: 0x7f09000a
 			public const int transition_current_scene = 2131296266;
@@ -4675,14 +4675,14 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid
 			// aapt resource value: 0x7f09000b
 			public const int transition_scene_layoutid_cache = 2131296267;
 			
-			// aapt resource value: 0x7f090076
-			public const int txtCEP = 2131296374;
+			// aapt resource value: 0x7f090078
+			public const int txtCEP = 2131296376;
+			
+			// aapt resource value: 0x7f090079
+			public const int txtNumero = 2131296377;
 			
 			// aapt resource value: 0x7f090077
-			public const int txtNumero = 2131296375;
-			
-			// aapt resource value: 0x7f090075
-			public const int txtRua = 2131296373;
+			public const int txtRua = 2131296375;
 			
 			// aapt resource value: 0x7f090009
 			public const int up = 2131296265;
