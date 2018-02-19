@@ -76,6 +76,7 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
         public MyProfileViewModel(IMvxNavigationService navigationService)
         {
             _navigationService = navigationService;
+            currentAddress = new Address();
             ShowRootCommand = new MvxAsyncCommand(async () => await _navigationService.Navigate<TabRootViewModel>());
         }
 
@@ -119,6 +120,9 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
         public async Task RedirectToAddress()
         {
             var result = await _navigationService.Navigate<AddressViewModel, Address>();
+            if(result == null) {
+                result = new Address();
+            }
             currentAddress = result as Address;
             this.Rua = currentAddress.Rua;
             this.CEP = currentAddress.CEP;

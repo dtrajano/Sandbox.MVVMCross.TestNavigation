@@ -16,7 +16,23 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.MyProfileView
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton btnAddress { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton btnClose { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel lblCep { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel lblNumero { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel lblRua { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -24,9 +40,29 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.MyProfileView
 
         void ReleaseDesignerOutlets ()
         {
+            if (btnAddress != null) {
+                btnAddress.Dispose ();
+                btnAddress = null;
+            }
+
             if (btnClose != null) {
                 btnClose.Dispose ();
                 btnClose = null;
+            }
+
+            if (lblCep != null) {
+                lblCep.Dispose ();
+                lblCep = null;
+            }
+
+            if (lblNumero != null) {
+                lblNumero.Dispose ();
+                lblNumero = null;
+            }
+
+            if (lblRua != null) {
+                lblRua.Dispose ();
+                lblRua = null;
             }
 
             if (lblTitleScreen != null) {
