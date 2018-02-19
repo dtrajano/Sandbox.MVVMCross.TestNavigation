@@ -22,4 +22,28 @@
         android:id="@+id/lblTitleScreen"
         android:text="asdsad"
         local:MvxBind="Text ScreenTitle" />
+    <TextView
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblRua"
+        local:MvxBind="Text Rua" />
+    <TextView
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblCep"
+        local:MvxBind="Text CEP" />
+    <TextView
+        android:text="Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblNumero"
+        local:MvxBind="Text Numero" />
+    <Button
+        android:text="Endereço"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEndereco"
+        local:MvxBind="Click goToAddress" />
 </LinearLayout>

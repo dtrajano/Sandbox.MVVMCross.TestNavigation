@@ -16,5 +16,6 @@
     
   <ItemGroup>
     <Folder Include="Hints\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 </Project>
