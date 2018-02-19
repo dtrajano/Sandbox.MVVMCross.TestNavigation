@@ -20,6 +20,14 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.HomeView
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel lblDecrypted { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel lblEncrypted { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel lblTitleScreen { get; set; }
 
         void ReleaseDesignerOutlets ()
@@ -27,6 +35,16 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.HomeView
             if (btnRedirectFirstOption != null) {
                 btnRedirectFirstOption.Dispose ();
                 btnRedirectFirstOption = null;
+            }
+
+            if (lblDecrypted != null) {
+                lblDecrypted.Dispose ();
+                lblDecrypted = null;
+            }
+
+            if (lblEncrypted != null) {
+                lblEncrypted.Dispose ();
+                lblEncrypted = null;
             }
 
             if (lblTitleScreen != null) {

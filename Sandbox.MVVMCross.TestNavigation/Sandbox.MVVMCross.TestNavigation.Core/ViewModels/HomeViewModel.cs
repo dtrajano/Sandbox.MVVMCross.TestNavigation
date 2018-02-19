@@ -16,6 +16,18 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
             set;
         }
 
+        public string EncryptedText
+        {
+            get;
+            set;
+        }
+
+        public string DecryptedText
+        {
+            get;
+            set;
+        }
+
         public IMvxAsyncCommand redirectFirstOption
         {
             get { return new MvxAsyncCommand(async () => await _navigationService.Navigate<FirstViewModel>()); }
@@ -30,7 +42,9 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
         public override void Prepare(string title)
         {
             base.Prepare();
-            ScreenTitle =  _rsaEncryption.Encrypt(title);
+            ScreenTitle = title;
+            EncryptedText = _rsaEncryption.Encrypt(title);
+            DecryptedText = _rsaEncryption.Decrypt(EncryptedText);
         }
 
         public override void ViewAppeared()

@@ -1,14 +1,19 @@
-﻿<Properties StartupConfiguration="{528D503E-5F99-48FA-A814-097EE9DF9664}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/NativeServices/RSAEncryption.cs">
+﻿<Properties StartupConfiguration="{898C3857-A5B2-4F10-BE6F-02A349610AAC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Views/HomeView/HomeView.storyboard">
     <Files>
-      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/NativeServices/RSAEncryption.cs" Line="24" Column="68" />
-      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/NativeServices/RSAEncryption.cs" Line="19" Column="18" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/NativeServices/RSAEncryption.cs" Line="12" Column="9" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/NativeServices/RSAEncryption.cs" Line="11" Column="30" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/NativeServices/Contracts/IRSAEncryption.cs" Line="7" Column="1" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/NativeServices/Contracts/ISHA1Encryption.cs" Line="6" Column="40" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/ViewModels/HomeViewModel.cs" Line="47" Column="67" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Views/HomeView/HomeView.cs" Line="25" Column="63" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Views/HomeView/HomeView.storyboard" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Documents/TestNav/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/ViewModels/HomeViewModel.cs" relfile="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/ViewModels/HomeViewModel.cs" line="33" column="57" />
+      <Breakpoint file="/Documents/TestNav/Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/ViewModels/HomeViewModel.cs" relfile="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/ViewModels/HomeViewModel.cs" line="45" column="57" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
