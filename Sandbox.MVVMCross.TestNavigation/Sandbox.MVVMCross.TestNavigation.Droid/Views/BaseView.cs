@@ -4,7 +4,7 @@ using MvvmCross.Droid.Support.V7.AppCompat;
 
 namespace Sandbox.MVVMCross.TestNavigation.Droid.Views
 {
-    public abstract class BaseView : MvxAppCompatActivity
+    public abstract class BaseView<T> : MvxAppCompatActivity
     {
         protected Toolbar Toolbar { get; set; }
 

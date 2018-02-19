@@ -21,8 +21,12 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.MyProfileView
             base.ViewDidLoad();
             //this.NavigationItem.SetLeftBarButtonItem(new UIBarButtonItem("Voltar", UIBarButtonItemStyle.Plain, null),true);
             var set = this.CreateBindingSet<MyProfileView, MyProfileViewModel>();
-            set.Bind(lblTitleScreen).To(vm=>vm.ScreenTitle);
-            set.Bind(btnClose).To(vm=>vm.Close);
+            set.Bind(lblTitleScreen).To(vm => vm.ScreenTitle);
+            set.Bind(btnAddress).To(vm=>vm.goToAddress);
+            set.Bind(btnClose).To(vm => vm.Close);
+            set.Bind(lblRua).To(vm=>vm.Rua);
+            set.Bind(lblCep).To(vm => vm.CEP);
+            set.Bind(lblNumero).To(vm => vm.Numero);
             set.Apply();
         }
 

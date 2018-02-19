@@ -7,7 +7,7 @@ using Sandbox.MVVMCross.TestNavigation.Core.ViewModels;
 namespace Sandbox.MVVMCross.TestNavigation.Droid.Views
 {
     [Activity(Label = "View for FirstViewModel")]
-    public class FirstView : BaseView
+    public class FirstView : BaseView<FirstView>
     {
         protected override int LayoutResource => Resource.Layout.FirstView;
 
@@ -15,7 +15,7 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid.Views
         {
             base.OnCreate(bundle);
 
-            SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+            SupportActionBar.SetDisplayHomeAsUpEnabled(false);
 
             Button btnRedirect = FindViewById<Button>(Resource.Id.btnRedirect);
 

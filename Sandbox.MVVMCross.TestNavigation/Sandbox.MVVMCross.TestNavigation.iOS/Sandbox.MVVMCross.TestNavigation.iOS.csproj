@@ -118,6 +118,10 @@
       <DependentUpon>MyProfileView.cs</DependentUpon>
     </Compile>
     <Compile Include="CustomBaseViewPresenter.cs" />
+    <Compile Include="Views\AddressView\AddressView.cs" />
+    <Compile Include="Views\AddressView\AddressView.designer.cs">
+      <DependentUpon>AddressView.cs</DependentUpon>
+    </Compile>
     <Compile Include="NativeServices\RSAEncryption.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -135,6 +139,7 @@
     <InterfaceDefinition Include="Views\HomeView\HomeView.storyboard" />
     <InterfaceDefinition Include="Views\MyMenuView\MyMenuView.storyboard" />
     <InterfaceDefinition Include="Views\MyProfileView\MyProfileView.storyboard" />
+    <InterfaceDefinition Include="Views\AddressView\AddressView.storyboard" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -215,6 +220,17 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-83.5x83.5_2x.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\icnpreferencias.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\icnmymenu.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\icnhome.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\icnpreferencias.imageset\icnPreferenciasInativoCopy.png" />
+    <ImageAsset Include="Assets.xcassets\icnpreferencias.imageset\icnPreferenciasInativoCopy%402x.png" />
+    <ImageAsset Include="Assets.xcassets\icnmymenu.imageset\icnMinhaLiderInativoCopy.png" />
+    <ImageAsset Include="Assets.xcassets\icnmymenu.imageset\icnMinhaLiderInativoCopy%402x.png" />
+    <ImageAsset Include="Assets.xcassets\icnmymenu.imageset\icnMinhaLiderInativoCopy%403x.png" />
+    <ImageAsset Include="Assets.xcassets\icnhome.imageset\icnHomeCopy.png" />
+    <ImageAsset Include="Assets.xcassets\icnhome.imageset\icnHomeCopy%402x.png" />
+    <ImageAsset Include="Assets.xcassets\icnhome.imageset\icnHomeCopy%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Sandbox.MVVMCross.TestNavigation.Core\Sandbox.MVVMCross.TestNavigation.Core.csproj">
@@ -228,6 +244,10 @@
     <Folder Include="Views\PreferencesView\" />
     <Folder Include="Views\TabRootView\" />
     <Folder Include="Views\MyProfileView\" />
+    <Folder Include="Assets.xcassets\icnpreferencias.imageset\" />
+    <Folder Include="Assets.xcassets\icnmymenu.imageset\" />
+    <Folder Include="Assets.xcassets\icnhome.imageset\" />
+    <Folder Include="Views\AddressView\" />
     <Folder Include="NativeServices\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

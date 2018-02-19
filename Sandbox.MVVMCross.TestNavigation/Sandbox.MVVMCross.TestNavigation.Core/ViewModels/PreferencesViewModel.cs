@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using MvvmCross.Core.Navigation;
 using MvvmCross.Core.ViewModels;
+using Sandbox.MVVMCross.TestNavigation.Core.Models;
 
 namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
 {
@@ -21,8 +22,9 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
             //{
             //    return new MvxCommand(() => ShowViewModel<MyProfileViewModel>());
             //}
-            get { return new MvxAsyncCommand(async() => await RedirectToMyProfile()); }
+            get { return new MvxAsyncCommand(async () => await RedirectToMyProfile()); }
         }
+
 
         IMvxNavigationService _navigationService;
 

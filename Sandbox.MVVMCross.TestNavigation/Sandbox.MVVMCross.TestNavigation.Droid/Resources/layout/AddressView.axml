@@ -3,9 +3,7 @@
     xmlns:local="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:minWidth="25px"
-    android:minHeight="25px">
+    android:layout_height="match_parent">
     <android.support.design.widget.AppBarLayout
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
@@ -15,35 +13,28 @@
             layout="@layout/toolbar"
             local:layout_scrollFlags="scroll|enterAlways" />
     </android.support.design.widget.AppBarLayout>
-    <TextView
-        android:textAppearance="?android:attr/textAppearanceSmall"
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/lblTitleScreen"
-        android:text="asdsad"
-        local:MvxBind="Text ScreenTitle" />
-    <TextView
-        android:text="Text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/lblRua"
+        android:id="@+id/txtRua"
+        android:hint="Rua"
         local:MvxBind="Text Rua" />
-    <TextView
-        android:text="Text"
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/lblCep"
+        android:id="@+id/txtCEP"
+        android:hint="CEP"
         local:MvxBind="Text CEP" />
-    <TextView
-        android:text="Text"
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/lblNumero"
+        android:id="@+id/txtNumero"
+        android:hint="Numero"
         local:MvxBind="Text Numero" />
     <Button
-        android:text="Endereço"
+        android:text="Feito"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnEndereco"
-        local:MvxBind="Click goToAddress" />
+        android:id="@+id/btnVoltar"
+        local:MvxBind="Click goToClose" />
 </LinearLayout>

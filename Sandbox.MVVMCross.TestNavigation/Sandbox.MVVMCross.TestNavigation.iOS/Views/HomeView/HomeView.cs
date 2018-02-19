@@ -8,7 +8,7 @@ using UIKit;
 namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.HomeView
 {
     [MvxFromStoryboard("HomeView")]
-    [MvxTabPresentation(WrapInNavigationController = false, TabIconName = "ic_tabbar_menu", TabName = "Home")]
+    [MvxTabPresentation(WrapInNavigationController = false, TabIconName = "icnhome", TabSelectedIconName= "icnpreferencias", TabName = "Home")]
     public partial class HomeView : MvxViewController<HomeViewModel>
     {
         public HomeView(IntPtr handle) : base(handle)

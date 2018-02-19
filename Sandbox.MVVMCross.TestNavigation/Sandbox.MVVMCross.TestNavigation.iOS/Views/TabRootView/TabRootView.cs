@@ -48,7 +48,12 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.TabRootView
             if (string.IsNullOrEmpty(attribute.TabName))
                 attribute.TabName = "Tab 2";
             //if (string.IsNullOrEmpty(attribute.TabIconName))
-                attribute.TabIconName = "ic_tabbar_menu";
+                //attribute.TabIconName = "ic_tabbar_menu";
+            this.TabBar.BarTintColor = UIColor.FromRGB(3,90,91);
+            this.TabBar.TintColor = UIColor.White;
+            this.TabBar.SelectedImageTintColor = UIColor.Red;
+            this.TabBar.UnselectedItemTintColor = UIColor.White;
+
             base.SetTitleAndTabBarItem(viewController, attribute);
         }
 
@@ -112,6 +117,7 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.TabRootView
         public override void ItemSelected(UITabBar tabbar, UITabBarItem item)
         {
             int tabPosition = Convert.ToInt32(item.Tag);
+
             ViewModel.ItemIndex = tabPosition;
             ViewModel.clearStackPreferencesTabCommand.Execute(null);
         }
