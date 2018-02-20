@@ -36,7 +36,7 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.MyProfileView
             this.NavigationController.NavigationBarHidden = false;
             this.NavigationItem.Title = "Meu Perfil";
             this.NavigationController.Title = "Meu Perfil";
-            this.TabBarController.TabBar.Hidden = true;
+            //this.TabBarController.TabBar.Hidden = true;
         }
 
         public override void DidReceiveMemoryWarning()

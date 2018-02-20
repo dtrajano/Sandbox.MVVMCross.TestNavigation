@@ -29,8 +29,8 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.PreferencesView
             base.ViewWillAppear(animated);
             NavigationController.Title = "Preferencias";
             this.NavigationItem.Title = "Preferencias";
-            NavigationController.NavigationBarHidden = true;
-            this.TabBarController.TabBar.Hidden = false;
+            //NavigationController.NavigationBarHidden = true;
+            //this.TabBarController.TabBar.Hidden = false;
         }
 
         public override void DidReceiveMemoryWarning()
