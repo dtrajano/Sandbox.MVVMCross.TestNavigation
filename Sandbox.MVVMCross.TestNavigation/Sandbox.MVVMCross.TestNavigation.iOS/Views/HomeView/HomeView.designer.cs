@@ -20,11 +20,19 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.HomeView
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton btnRequestPermission { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel lblDecrypted { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UILabel lblEncrypted { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel lblStatusPermissaoNotificacao { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -37,6 +45,11 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.HomeView
                 btnRedirectFirstOption = null;
             }
 
+            if (btnRequestPermission != null) {
+                btnRequestPermission.Dispose ();
+                btnRequestPermission = null;
+            }
+
             if (lblDecrypted != null) {
                 lblDecrypted.Dispose ();
                 lblDecrypted = null;
@@ -45,6 +58,11 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.HomeView
             if (lblEncrypted != null) {
                 lblEncrypted.Dispose ();
                 lblEncrypted = null;
+            }
+
+            if (lblStatusPermissaoNotificacao != null) {
+                lblStatusPermissaoNotificacao.Dispose ();
+                lblStatusPermissaoNotificacao = null;
             }
 
             if (lblTitleScreen != null) {

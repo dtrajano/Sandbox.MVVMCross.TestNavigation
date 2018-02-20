@@ -7,7 +7,7 @@
     <ProjectGuid>{528D503E-5F99-48FA-A814-097EE9DF9664}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Sandbox_MVVMCross_TestNavigation.iOS</RootNamespace>
+    <RootNamespace>Sandbox.MVVMCross.TestNavigation.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <AssemblyName>Sandbox_MVVMCross_TestNavigation.iOS</AssemblyName>
   </PropertyGroup>
@@ -23,6 +23,7 @@
     <MtouchArch>x86_64</MtouchArch>
     <MtouchLink>None</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
+<CodesignKey>iPhone Developer</CodesignKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>
@@ -123,6 +124,7 @@
       <DependentUpon>AddressView.cs</DependentUpon>
     </Compile>
     <Compile Include="NativeServices\RSAEncryption.cs" />
+    <Compile Include="NativeServices\PermissionManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Setup.cs" />

@@ -49,6 +49,7 @@ namespace Sandbox.MVVMCross.TestNavigation.iOS
         protected override void InitializeFirstChance()
         {
             Mvx.RegisterSingleton<IRSAEncryption>(new RSAEncryption());
+            Mvx.RegisterSingleton<IPermissionManager>(new PermissionManager());
             base.InitializeFirstChance();
         }
     }
