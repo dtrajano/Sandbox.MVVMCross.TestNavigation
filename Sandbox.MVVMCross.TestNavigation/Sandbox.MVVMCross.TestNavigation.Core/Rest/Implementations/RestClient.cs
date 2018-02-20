@@ -1,4 +1,5 @@
-﻿using MvvmCross.Platform.Platform;
+﻿using ModernHttpClient;
+using MvvmCross.Platform.Platform;
 using Sandbox.MVVMCross.TestNavigation.Core.Rest.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -12,16 +13,16 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.Rest.Implementations
     {
         private readonly IMvxJsonConverter _jsonConverter;
 
-        public RestClient(IMvxJsonConverter jsonConverter)
+        public RestClient()
         {
-            _jsonConverter = jsonConverter;
+            _jsonConverter = new MvvmCross.Plugins.Json.MvxJsonConverter();
         }
 
         public async Task<TResult> MakeApiCall<TResult>(string url, HttpMethod method, object data = null) where TResult : class
         {
             url = url.Replace("http://", "https://");
 
-            using (var httpClient = new HttpClient())
+            using (var httpClient = new HttpClient(new NativeMessageHandler()))
             {
                 using (var request = new HttpRequestMessage { RequestUri = new Uri(url), Method = method })
                 {
@@ -37,8 +38,9 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.Rest.Implementations
                     {
                         response = await httpClient.SendAsync(request).ConfigureAwait(false);
                     }
-                    catch (Exception)
+                    catch (Exception ex)
                     {
+                        var a = ex;
                         // log error
                     }
 

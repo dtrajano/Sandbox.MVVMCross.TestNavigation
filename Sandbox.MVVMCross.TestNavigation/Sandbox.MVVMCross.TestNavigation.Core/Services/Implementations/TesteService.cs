@@ -11,7 +11,6 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.Services.Implementations
 {
     public class TesteService : ITesteService
     {
-
         private string GetUrlFromService(string Service)
         {
             return Constants.BaseUrl + Service.Replace("Service", "").ToLower();
@@ -19,14 +18,14 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.Services.Implementations
 
         private readonly IRestClient _restClient;
 
-        public TesteService(IRestClient restiClient)
+        public TesteService(IRestClient restClient)
         {
-            _restClient = restiClient;
+            _restClient = restClient;
         }
 
         public async Task<Token> Login(Login login)
         {
-            var url = GetUrlFromService(nameof(TesteService));
+            var url = GetUrlFromService("auth/login");
 
             return await _restClient.MakeApiCall<Token>(url,
                                                         HttpMethod.Post,

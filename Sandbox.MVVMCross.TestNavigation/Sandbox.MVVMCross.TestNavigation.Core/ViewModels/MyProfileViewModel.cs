@@ -83,12 +83,12 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
         public override void Prepare(string message)
         {
             base.Prepare();
-        }
+        }       
 
-        public override void ViewDestroy()
-        {
-            base.ViewDestroy();
-        }
+        //public override void ViewDestroy()
+        //{
+        //    base.ViewDestroy();
+        //}
 
         //protected override void SaveStateToBundle(IMvxBundle bundle)
         //{

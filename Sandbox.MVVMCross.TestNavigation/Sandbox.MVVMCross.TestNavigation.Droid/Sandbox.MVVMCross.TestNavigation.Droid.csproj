@@ -30,6 +30,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
+    <AotAssemblies>false</AotAssemblies>
+    <EnableLLVM>false</EnableLLVM>
+    <BundleAssemblies>false</BundleAssemblies>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,26 +45,38 @@
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="MvvmCross" Version="5.2.1" />
-    <PackageReference Include="MvvmCross.Binding" Version="5.2.1" />
-    <PackageReference Include="MvvmCross.Core" Version="5.2.1" />
-    <PackageReference Include="MvvmCross.Platform" Version="5.2.1" />
-    <PackageReference Include="MvvmCross.Droid.Support.Core.UI" Version="5.2.1" />
-    <PackageReference Include="MvvmCross.Droid.Support.Fragment" Version="5.2.1" />
-    <PackageReference Include="MvvmCross.Droid.Support.V7.AppCompat" Version="5.2.1" />
-    <PackageReference Include="MvvmCross.Droid.Support.V7.RecyclerView" Version="5.2.1" />
-    <PackageReference Include="Xamarin.Android.Support.Animated.Vector.Drawable" Version="25.4.0.2" />
-    <PackageReference Include="Xamarin.Android.Support.Annotations" Version="25.4.0.2" />
-    <PackageReference Include="Xamarin.Android.Support.Compat" Version="25.4.0.2" />
-    <PackageReference Include="Xamarin.Android.Support.Core.UI" Version="25.4.0.2" />
-    <PackageReference Include="Xamarin.Android.Support.Core.Utils" Version="25.4.0.2" />
-    <PackageReference Include="Xamarin.Android.Support.Design" Version="25.4.0.2" />
-    <PackageReference Include="Xamarin.Android.Support.Fragment" Version="25.4.0.2" />
-    <PackageReference Include="Xamarin.Android.Support.Media.Compat" Version="25.4.0.2" />
-    <PackageReference Include="Xamarin.Android.Support.Transition" Version="25.4.0.2" />
-    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="25.4.0.2" />
-    <PackageReference Include="Xamarin.Android.Support.v7.RecyclerView" Version="25.4.0.2" />
-    <PackageReference Include="Xamarin.Android.Support.Vector.Drawable" Version="25.4.0.2" />
+    <PackageReference Include="modernhttpclient">
+      <Version>2.4.2</Version>
+    </PackageReference>
+    <PackageReference Include="MvvmCross" Version="5.6.3" />
+    <PackageReference Include="MvvmCross.Binding" Version="5.6.3" />
+    <PackageReference Include="MvvmCross.Core" Version="5.6.3" />
+    <PackageReference Include="MvvmCross.Platform" Version="5.6.3" />
+    <PackageReference Include="MvvmCross.Droid.Support.Core.UI" Version="5.6.3" />
+    <PackageReference Include="MvvmCross.Droid.Support.Fragment" Version="5.6.3" />
+    <PackageReference Include="MvvmCross.Droid.Support.V7.AppCompat" Version="5.6.3" />
+    <PackageReference Include="MvvmCross.Droid.Support.V7.RecyclerView" Version="5.6.3" />
+    <PackageReference Include="MvvmCross.Plugin.Json">
+      <Version>5.6.3</Version>
+    </PackageReference>
+    <PackageReference Include="MvvmCross.Plugin.Messenger">
+      <Version>5.6.3</Version>
+    </PackageReference>
+    <PackageReference Include="MvvmCross.Plugin.Visibility">
+      <Version>5.6.3</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.Animated.Vector.Drawable" Version="26.1.0.1" />
+    <PackageReference Include="Xamarin.Android.Support.Annotations" Version="26.1.0.1" />
+    <PackageReference Include="Xamarin.Android.Support.Compat" Version="26.1.0.1" />
+    <PackageReference Include="Xamarin.Android.Support.Core.UI" Version="26.1.0.1" />
+    <PackageReference Include="Xamarin.Android.Support.Core.Utils" Version="26.1.0.1" />
+    <PackageReference Include="Xamarin.Android.Support.Design" Version="26.1.0.1" />
+    <PackageReference Include="Xamarin.Android.Support.Fragment" Version="26.1.0.1" />
+    <PackageReference Include="Xamarin.Android.Support.Media.Compat" Version="26.1.0.1" />
+    <PackageReference Include="Xamarin.Android.Support.Transition" Version="26.1.0.1" />
+    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="26.1.0.1" />
+    <PackageReference Include="Xamarin.Android.Support.v7.RecyclerView" Version="26.1.0.1" />
+    <PackageReference Include="Xamarin.Android.Support.Vector.Drawable" Version="26.1.0.1" />
     <PackageReference Include="Xamarin.Build.Download" Version="0.4.7" />
   </ItemGroup>
   <ItemGroup>
@@ -79,20 +94,7 @@
       <Name>Sandbox.MVVMCross.TestNavigation.Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\drawable-hdpi\" />
-    <Folder Include="Resources\drawable-mdpi\" />
-    <Folder Include="Resources\drawable-xhdpi\" />
-    <Folder Include="Resources\drawable-xxhdpi\" />
-    <Folder Include="Views\TabRootView\" />
-    <Folder Include="Views\HomeView\" />
-    <Folder Include="Views\MyMenuView\" />
-    <Folder Include="Views\PreferencesView\" />
-    <Folder Include="Views\MyProfile\" />
-    <Folder Include="Resources\menu\" />
-    <Folder Include="Views\AddressView\" />
-    <Folder Include="NativeServices\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\splash.png" />
     <AndroidResource Include="Resources\mipmap-hdpi\ic_launcher.png" />
