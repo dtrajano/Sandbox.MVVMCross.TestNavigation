@@ -1,5 +1,5 @@
+using MvvmCross.Platform;
 using MvvmCross.Platform.IoC;
-using Sandbox.MVVMCross.TestNavigation.Core.ViewModels;
 
 namespace Sandbox.MVVMCross.TestNavigation.Core
 {
@@ -8,11 +8,17 @@ namespace Sandbox.MVVMCross.TestNavigation.Core
         public override void Initialize()
         {
             CreatableTypes()
-                .EndingWith("Service")
+                .EndingWith("Service")                
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterNavigationServiceAppStart<FirstViewModel>();
+            CreatableTypes()
+                .EndingWith("Client")                
+                .AsInterfaces()
+                .RegisterAsLazySingleton();
+                        
+            RegisterCustomAppStart<AppStart>();
+
         }
     }
 }

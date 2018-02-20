@@ -18,9 +18,11 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid.Views
             SupportActionBar.SetDisplayHomeAsUpEnabled(false);
 
             Button btnRedirect = FindViewById<Button>(Resource.Id.btnRedirect);
+            Button btnTesteCallApi = FindViewById<Button>(Resource.Id.btnTesteCallApi);
 
             var set = this.CreateBindingSet<FirstView, FirstViewModel>();
             set.Bind(btnRedirect).To(vm=>vm.redirectToTabRoot);
+            set.Bind(btnTesteCallApi).To(vm => vm.testeCallApi);            
             set.Apply();
         }
     }
