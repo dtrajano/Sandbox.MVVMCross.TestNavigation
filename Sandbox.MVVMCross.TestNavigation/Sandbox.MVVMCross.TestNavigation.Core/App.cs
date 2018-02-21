@@ -1,5 +1,6 @@
 using MvvmCross.Platform;
 using MvvmCross.Platform.IoC;
+using Sandbox.MVVMCross.TestNavigation.Core.ViewModels;
 
 namespace Sandbox.MVVMCross.TestNavigation.Core
 {
@@ -18,7 +19,7 @@ namespace Sandbox.MVVMCross.TestNavigation.Core
                 .RegisterAsLazySingleton();
                         
             RegisterCustomAppStart<AppStart>();
-
+            //RegisterNavigationServiceAppStart<FirstViewModel>();
         }
     }
 }

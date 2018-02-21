@@ -1,7 +1,7 @@
 ﻿using MvvmCross.Platform.Platform;
+using MvvmCross.Plugins.Json;
 using Sandbox.MVVMCross.TestNavigation.Core.Rest.Interfaces;
 using System;
-using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,9 +12,9 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.Rest.Implementations
     {
         private readonly IMvxJsonConverter _jsonConverter;
 
-        public RestClient(IMvxJsonConverter jsonConverter)
+        public RestClient()
         {
-            _jsonConverter = jsonConverter;
+            _jsonConverter = new MvxJsonConverter();
         }
 
         public async Task<TResult> MakeApiCall<TResult>(string url, HttpMethod method, object data = null) where TResult : class
