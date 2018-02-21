@@ -19,7 +19,6 @@ namespace Sandbox.MVVMCross.TestNavigation.Core
                 .RegisterAsLazySingleton();
                         
             RegisterCustomAppStart<AppStart>();
-            //RegisterNavigationServiceAppStart<FirstViewModel>();
         }
     }
 }

@@ -1,6 +1,9 @@
 using MvvmCross.Core.Navigation;
 using MvvmCross.Core.ViewModels;
+using Plugin.Permissions;
+using Plugin.Permissions.Abstractions;
 using Sandbox.MVVMCross.TestNavigation.Core.Models;
+using Sandbox.MVVMCross.TestNavigation.Core.NativeServices.Contracts;
 using Sandbox.MVVMCross.TestNavigation.Core.Services.Interfaces;
 
 namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
@@ -17,6 +20,7 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
 
         private readonly IMvxNavigationService _navigationService;
         private readonly ITesteService _testeService;
+        private readonly IPermissionManager _permissionManager;
 
         public IMvxAsyncCommand redirectToTabRoot
         {
@@ -39,11 +43,14 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
 
                     });
 
-        //TODO: Erro na Ingeção de dependência
-        public FirstViewModel(ITesteService testeService, IMvxNavigationService navigationService)
+
+        public FirstViewModel(ITesteService testeService, IMvxNavigationService navigationService, IPermissionManager permissionManager)
         {
             _testeService = testeService;
             _navigationService = navigationService;
+            _permissionManager = permissionManager;
+
+            //_permissionManager.RequestPermission(Permission.Location);
         }        
     }
 }

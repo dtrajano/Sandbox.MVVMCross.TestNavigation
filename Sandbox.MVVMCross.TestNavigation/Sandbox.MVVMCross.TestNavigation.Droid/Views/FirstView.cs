@@ -2,6 +2,7 @@ using Android.App;
 using Android.OS;
 using Android.Widget;
 using MvvmCross.Binding.BindingContext;
+using Plugin.CurrentActivity;
 using Sandbox.MVVMCross.TestNavigation.Core.ViewModels;
 
 namespace Sandbox.MVVMCross.TestNavigation.Droid.Views
@@ -24,6 +25,8 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid.Views
             set.Bind(btnRedirect).To(vm=>vm.redirectToTabRoot);
             set.Bind(btnTesteCallApi).To(vm => vm.testeCallApi);            
             set.Apply();
+
+            //CrossCurrentActivity.Current.Activity = this;
         }
     }
 }
