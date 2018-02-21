@@ -63,10 +63,8 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
         {
             base.Prepare();
             ScreenTitle = title;
-            //var result = await _permissionManager.CheckPermissionStatus(Permission.Location);
-            //StatusPermissaoNotificacao = result == PermissionStatus.Granted ? true : false;
-            var result = _permissionManager.CheckPermissionNotificationStatus();
-            StatusPermissaoNotificacao = result;
+            var result = await _permissionManager.CheckPermissionStatus(Permission.Location);
+            StatusPermissaoNotificacao = result == PermissionStatus.Granted ? true : false;
             //EncryptedText = _rsaEncryption.Encrypt(title);
             //DecryptedText = _rsaEncryption.Decrypt(EncryptedText);
         }
@@ -78,12 +76,8 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
 
         private async Task SolicitarPermissaoGeolocalizacao()
         {
-            //var result = await _permissionManager.RequestPermission(Permission.Location);
-            _permissionManager.RequestPermissionNotification();
-            //var result = await _permissionManager.RequestPermissionNotification();
-            //StatusPermissaoNotificacao = result == PermissionStatus.Granted ? true : false;
-            var result = _permissionManager.CheckPermissionNotificationStatus();
-            StatusPermissaoNotificacao = result;
+            var result = await _permissionManager.RequestPermission(Permission.Location);
+            StatusPermissaoNotificacao = result == PermissionStatus.Granted ? true : false;
         }
     }
 }

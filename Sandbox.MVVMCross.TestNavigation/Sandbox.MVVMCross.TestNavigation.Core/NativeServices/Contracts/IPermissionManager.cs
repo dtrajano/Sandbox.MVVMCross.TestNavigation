@@ -10,9 +10,5 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.NativeServices.Contracts
         Task<PermissionStatus> CheckPermissionStatus(Permission permissionType);
 
         Task<PermissionStatus> RequestPermission(Permission permissionType);
-
-        void RequestPermissionNotification();
-
-        bool CheckPermissionNotificationStatus();
     }
 }

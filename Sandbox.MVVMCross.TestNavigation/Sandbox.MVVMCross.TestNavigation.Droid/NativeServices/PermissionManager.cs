@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using Android.App;
 using Plugin.Permissions;
 using Plugin.Permissions.Abstractions;
 using Sandbox.MVVMCross.TestNavigation.Core.NativeServices.Contracts;
@@ -35,17 +36,6 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid.NativeServices
             }
 
             return status;
-        }
-
-        public void RequestPermissionNotification()
-        {
-            throw new NotImplementedException();
-        }
-
-
-        public bool CheckPermissionNotificationStatus()
-        {
-            throw new NotImplementedException();
         }
     }
 }
