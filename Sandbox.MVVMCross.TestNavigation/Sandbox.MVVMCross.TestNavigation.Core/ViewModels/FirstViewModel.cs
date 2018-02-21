@@ -33,8 +33,8 @@ namespace Sandbox.MVVMCross.TestNavigation.Core.ViewModels
                         Login login = new Login()
                         {
                             grant_type = "password",
-                            password = "Max_123",
-                            username = "maximilian.silva@teste.com.br"
+                            password = "Rafael@123",
+                            username = "rafael.cardoso@lideraviacao.com.br"
                         };
 
                         var token = await _testeService.Login(login);

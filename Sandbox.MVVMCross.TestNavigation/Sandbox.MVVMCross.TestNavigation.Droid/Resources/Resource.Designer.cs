@@ -26,6 +26,7 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::ModernHttpClient.Resource.String.library_name = global::Sandbox.MVVMCross.TestNavigation.Droid.Resource.String.library_name;
 			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxBind = global::Sandbox.MVVMCross.TestNavigation.Droid.Resource.Attribute.MvxBind;
 			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxDropDownItemTemplate = global::Sandbox.MVVMCross.TestNavigation.Droid.Resource.Attribute.MvxDropDownItemTemplate;
 			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxGroupItemTemplate = global::Sandbox.MVVMCross.TestNavigation.Droid.Resource.Attribute.MvxGroupItemTemplate;
@@ -5226,11 +5227,11 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f0a002a
-			public const int ApplicationName = 2131361834;
+			// aapt resource value: 0x7f0a002b
+			public const int ApplicationName = 2131361835;
 			
-			// aapt resource value: 0x7f0a0029
-			public const int VersionName = 2131361833;
+			// aapt resource value: 0x7f0a002a
+			public const int VersionName = 2131361834;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int abc_action_bar_home_description = 2131361792;
@@ -5333,6 +5334,9 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid
 			
 			// aapt resource value: 0x7f0a0023
 			public const int character_counter_pattern = 2131361827;
+			
+			// aapt resource value: 0x7f0a0029
+			public const int library_name = 2131361833;
 			
 			// aapt resource value: 0x7f0a0024
 			public const int password_toggle_content_description = 2131361828;

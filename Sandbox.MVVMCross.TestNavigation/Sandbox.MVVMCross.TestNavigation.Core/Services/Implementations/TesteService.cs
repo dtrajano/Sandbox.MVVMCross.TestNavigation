@@ -9,14 +9,8 @@ using System.Threading.Tasks;
 
 namespace Sandbox.MVVMCross.TestNavigation.Core.Services.Implementations
 {
-    public class TesteService : ITesteService
+    public class TesteService : BaseService, ITesteService
     {
-
-        private string GetUrlFromService(string Service)
-        {
-            return Constants.BaseUrl + Service.Replace("Service", "").ToLower();
-        }
-
         private readonly IRestClient _restClient;
 
         public TesteService(IRestClient restiClient)

@@ -31,11 +31,17 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.NativeServices
             return status;
         }
 
-        public Task<PermissionStatus> RequestPermissionNotification()
+        public void RequestPermissionNotification()
         {
             var settings = UIUserNotificationSettings.GetSettingsForTypes(UIUserNotificationType.Alert | UIUserNotificationType.Badge | UIUserNotificationType.Sound, null);
             UIApplication.SharedApplication.RegisterUserNotificationSettings(settings);
-            return Task.FromResult<PermissionStatus>(PermissionStatus.Granted);
+        }
+
+        public bool CheckPermissionNotificationStatus()
+        {
+            //var result = await UserNotifications.UNUserNotificationCenter.Current.GetNotificationSettingsAsync();
+            return UIApplication.SharedApplication.CurrentUserNotificationSettings.Types == UIUserNotificationType.None ? false : true;
+            //return result.AuthorizationStatus == UserNotifications.UNAuthorizationStatus.Authorized ? true : false;
         }
     }
 }

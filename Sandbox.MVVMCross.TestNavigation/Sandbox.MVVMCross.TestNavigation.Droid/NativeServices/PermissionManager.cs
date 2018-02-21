@@ -37,7 +37,13 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid.NativeServices
             return status;
         }
 
-        public Task<PermissionStatus> RequestPermissionNotification()
+        public void RequestPermissionNotification()
+        {
+            throw new NotImplementedException();
+        }
+
+
+        public bool CheckPermissionNotificationStatus()
         {
             throw new NotImplementedException();
         }
