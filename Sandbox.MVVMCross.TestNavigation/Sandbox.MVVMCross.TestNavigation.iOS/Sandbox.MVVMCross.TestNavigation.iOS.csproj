@@ -101,6 +101,9 @@
     <PackageReference Include="MvvmCross.Plugin.Visibility">
       <Version>5.6.3</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.iOS.iCarousel">
+      <Version>1.8.4</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DebugTrace.cs" />
@@ -135,6 +138,10 @@
       <DependentUpon>AddressView.cs</DependentUpon>
     </Compile>
     <Compile Include="NativeServices\RSAEncryption.cs" />
+    <Compile Include="ControlesCustomizados\CarrosselView\CarrosselView.cs" />
+    <Compile Include="ControlesCustomizados\CarrosselView\CarrosselView.designer.cs">
+      <DependentUpon>CarrosselView.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Setup.cs" />
@@ -152,6 +159,7 @@
     <InterfaceDefinition Include="Views\MyMenuView\MyMenuView.storyboard" />
     <InterfaceDefinition Include="Views\MyProfileView\MyProfileView.storyboard" />
     <InterfaceDefinition Include="Views\AddressView\AddressView.storyboard" />
+    <InterfaceDefinition Include="ControlesCustomizados\CarrosselView\CarrosselView.xib" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -276,6 +284,8 @@
     <Folder Include="Assets.xcassets\icnhome.imageset\" />
     <Folder Include="Assets.xcassets\icnmymenu.imageset\" />
     <Folder Include="Assets.xcassets\icnpreferencias.imageset\" />
+    <Folder Include="ControlesCustomizados\" />
+    <Folder Include="ControlesCustomizados\CarrosselView\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

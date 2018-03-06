@@ -1,9 +1,8 @@
-﻿<Properties StartupConfiguration="{528D503E-5F99-48FA-A814-097EE9DF9664}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/ViewModels/HomeViewModel.cs">
+﻿<Properties StartupConfiguration="{528D503E-5F99-48FA-A814-097EE9DF9664}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Views/MyMenuView/MyMenuView.cs">
     <Files>
-      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/NativeServices/RSAEncryption.cs" Line="12" Column="1" />
-      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/NativeServices/RSAEncryption.cs" Line="12" Column="1" />
-      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/ViewModels/HomeViewModel.cs" Line="45" Column="1" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Views/MyMenuView/MyMenuView.cs" Line="117" Column="9" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Views/MyMenuView/MyMenuView.storyboard" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -11,6 +10,7 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Sandbox.MVVMCross.TestNavigation.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6545DC17-A43E-4E8C-B15C-3DBC31E13408" />
+  <MonoDevelop.Ide.ItemProperties.Sandbox.MVVMCross.TestNavigation.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F93F3FC6-76FE-4E41-9242-C7643E986439" />
+  <MonoDevelop.Ide.ItemProperties.Sandbox.MVVMCross.TestNavigation.Droid PreferredExecutionTarget="Android.32d6ae4d" />
   <MultiItemStartupConfigurations />
 </Properties>

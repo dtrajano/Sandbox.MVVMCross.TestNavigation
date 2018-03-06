@@ -16,13 +16,17 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.MyMenuView
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel lblTitleScreen { get; set; }
+        UIKit.UIView carrosselView { get; set; }
+
+        [Action ("UIButton896_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void UIButton896_TouchUpInside (UIKit.UIButton sender);
 
         void ReleaseDesignerOutlets ()
         {
-            if (lblTitleScreen != null) {
-                lblTitleScreen.Dispose ();
-                lblTitleScreen = null;
+            if (carrosselView != null) {
+                carrosselView.Dispose ();
+                carrosselView = null;
             }
         }
     }
