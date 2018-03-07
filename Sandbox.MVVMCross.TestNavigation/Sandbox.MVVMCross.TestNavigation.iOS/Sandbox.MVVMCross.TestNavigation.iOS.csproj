@@ -7,7 +7,7 @@
     <ProjectGuid>{528D503E-5F99-48FA-A814-097EE9DF9664}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Sandbox_MVVMCross_TestNavigation.iOS</RootNamespace>
+    <RootNamespace>Sandbox.MVVMCross.TestNavigation.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <AssemblyName>Sandbox_MVVMCross_TestNavigation.iOS</AssemblyName>
   </PropertyGroup>
@@ -23,6 +23,7 @@
     <MtouchArch>x86_64</MtouchArch>
     <MtouchLink>None</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
+<CodesignKey>iPhone Developer</CodesignKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>
@@ -85,20 +86,16 @@
     <CodesignKey>iPhone Distribution</CodesignKey>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="modernhttpclient">
-      <Version>2.4.2</Version>
-    </PackageReference>
-    <PackageReference Include="MvvmCross" Version="5.6.3" />
-    <PackageReference Include="MvvmCross.Binding" Version="5.6.3" />
-    <PackageReference Include="MvvmCross.Core" Version="5.6.3" />
-    <PackageReference Include="MvvmCross.Platform" Version="5.6.3" />
-    <PackageReference Include="MvvmCross.Plugin.Json">
+    <PackageReference Include="MvvmCross">
       <Version>5.6.3</Version>
     </PackageReference>
-    <PackageReference Include="MvvmCross.Plugin.Messenger">
+    <PackageReference Include="MvvmCross.Binding">
       <Version>5.6.3</Version>
     </PackageReference>
-    <PackageReference Include="MvvmCross.Plugin.Visibility">
+    <PackageReference Include="MvvmCross.Core">
+      <Version>5.6.3</Version>
+    </PackageReference>
+    <PackageReference Include="MvvmCross.Platform">
       <Version>5.6.3</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.iOS.iCarousel">
@@ -142,6 +139,7 @@
     <Compile Include="ControlesCustomizados\CarrosselView\CarrosselView.designer.cs">
       <DependentUpon>CarrosselView.cs</DependentUpon>
     </Compile>
+    <Compile Include="NativeServices\PermissionManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Setup.cs" />
@@ -281,11 +279,18 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Assets.xcassets\icnhome.imageset\" />
-    <Folder Include="Assets.xcassets\icnmymenu.imageset\" />
+    <Folder Include="Views\HomeView\" />
+    <Folder Include="Views\MyMenuView\" />
+    <Folder Include="Views\PreferencesView\" />
+    <Folder Include="Views\TabRootView\" />
+    <Folder Include="Views\MyProfileView\" />
     <Folder Include="Assets.xcassets\icnpreferencias.imageset\" />
     <Folder Include="ControlesCustomizados\" />
     <Folder Include="ControlesCustomizados\CarrosselView\" />
+    <Folder Include="Assets.xcassets\icnmymenu.imageset\" />
+    <Folder Include="Assets.xcassets\icnhome.imageset\" />
+    <Folder Include="Views\AddressView\" />
+    <Folder Include="NativeServices\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

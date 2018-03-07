@@ -9,18 +9,16 @@ namespace Sandbox.MVVMCross.TestNavigation.Core
         public override void Initialize()
         {
             CreatableTypes()
-               .EndingWith("Service")
-               .AsInterfaces()
-               .RegisterAsLazySingleton();
-
-            CreatableTypes()
-                .EndingWith("Client")
+                .EndingWith("Service")                
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterNavigationServiceAppStart<FirstViewModel>();
-            //RegisterCustomAppStart<AppStart>();
-
+            CreatableTypes()
+                .EndingWith("Client")                
+                .AsInterfaces()
+                .RegisterAsLazySingleton();
+                        
+            RegisterCustomAppStart<AppStart>();
         }
     }
 }

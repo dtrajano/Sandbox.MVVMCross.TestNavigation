@@ -36,6 +36,9 @@ namespace Sandbox.MVVMCross.TestNavigation.iOS
 
                 if (controller.ChildViewControllers.Length > 0)
                 {
+
+                    //((ClearNavBackStackHint)hint)._actualViewModel
+                    
                     if (controller.ChildViewControllers[0].NavigationController != null)
                     {
                         controller.ChildViewControllers[0].NavigationController.PopViewController(false);

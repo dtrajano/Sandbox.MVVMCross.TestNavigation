@@ -28,6 +28,7 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid
         protected override void InitializeFirstChance()
         {
             Mvx.RegisterSingleton<IRSAEncryption>(new RSAEncryption());
+            Mvx.RegisterSingleton<IPermissionManager>(new PermissionManager());
             base.InitializeFirstChance();
         }
     }

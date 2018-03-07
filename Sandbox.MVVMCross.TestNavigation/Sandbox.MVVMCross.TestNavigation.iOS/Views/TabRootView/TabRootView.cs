@@ -51,6 +51,8 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.TabRootView
                 //attribute.TabIconName = "ic_tabbar_menu";
             //this.TabBar.BarTintColor = UIColor.FromRGB(3,90,91);
             //this.TabBar.TintColor = UIColor.White;
+            this.TabBar.BarTintColor = UIColor.FromRGB(3,90,91);
+            this.TabBar.TintColor = UIColor.White;
             //this.TabBar.SelectedImageTintColor = UIColor.Red;
             //this.TabBar.UnselectedItemTintColor = UIColor.White;
 

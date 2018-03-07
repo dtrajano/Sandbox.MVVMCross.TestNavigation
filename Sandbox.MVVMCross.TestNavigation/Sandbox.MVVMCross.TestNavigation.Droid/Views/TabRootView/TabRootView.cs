@@ -6,6 +6,7 @@ using System.Text;
 
 using Android.App;
 using Android.Content;
+using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
 using Android.Support.Design.Widget;
@@ -14,6 +15,8 @@ using Android.Views;
 using Android.Widget;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using MvvmCross.Droid.Views.Attributes;
+using Plugin.CurrentActivity;
+using Plugin.Permissions;
 using Sandbox.MVVMCross.TestNavigation.Core.ViewModels;
 
 namespace Sandbox.MVVMCross.TestNavigation.Droid.Views
@@ -32,6 +35,9 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid.Views
             {
                 ViewModel.ShowInitialViewModelsCommand.Execute();
             }
+
+            //NECESSARIO PARA PLUGIN DE GERENCIAMENTO DE PERMISSOES, CRIAR UMA ACTIVITY BASE
+            CrossCurrentActivity.Current.Activity = this;
         }
 
         protected override void OnPostCreate(Bundle savedInstanceState)
@@ -39,6 +45,12 @@ namespace Sandbox.MVVMCross.TestNavigation.Droid.Views
             base.OnPostCreate(savedInstanceState);
 
             setupIconsTabBar();
+        }
+
+        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Permission[] grantResults)
+        {
+            //NECESSARIO PARA PLUGIN DE GERENCIAMENTO DE PERMISSOES, CRIAR UMA ACTIVITY BASE
+            Plugin.Permissions.PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
 
         private void setupIconsTabBar()

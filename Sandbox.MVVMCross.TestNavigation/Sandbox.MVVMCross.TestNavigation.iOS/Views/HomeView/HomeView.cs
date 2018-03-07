@@ -23,6 +23,8 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.HomeView
             set.Bind(lblTitleScreen).To(vm => vm.ScreenTitle);
             set.Bind(lblEncrypted).To(vm => vm.EncryptedText);
             set.Bind(lblDecrypted).To(vm => vm.DecryptedText);
+            set.Bind(lblStatusPermissaoNotificacao).To(vm=>vm.StatusPermissaoNotificacao);
+            set.Bind(btnRequestPermission).To(vm=>vm.requestPermissionLocation);
             set.Bind(btnRedirectFirstOption).To(vm=>vm.redirectFirstOption);
             set.Apply();
             // Perform any additional setup after loading the view, typically from a nib.

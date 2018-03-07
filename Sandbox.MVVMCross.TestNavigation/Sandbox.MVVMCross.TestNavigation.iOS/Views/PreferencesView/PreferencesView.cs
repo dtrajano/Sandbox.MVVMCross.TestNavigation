@@ -27,9 +27,9 @@ namespace Sandbox_MVVMCross_TestNavigation.iOS.Views.PreferencesView
         public override void ViewWillAppear(bool animated)
         {
             base.ViewWillAppear(animated);
-            NavigationController.Title = "Preferencias";
-            this.NavigationItem.Title = "Preferencias";
-            NavigationController.NavigationBarHidden = true;
+            //NavigationController.Title = "Preferencias";
+            //this.NavigationItem.Title = "Preferencias";
+            this.NavigationController.NavigationBarHidden = true;
             this.TabBarController.TabBar.Hidden = false;
         }
 

@@ -1,8 +1,11 @@
 ﻿<Properties StartupConfiguration="{528D503E-5F99-48FA-A814-097EE9DF9664}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Views/MyMenuView/MyMenuView.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Info.plist">
     <Files>
-      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Views/MyMenuView/MyMenuView.cs" Line="117" Column="9" />
       <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Views/MyMenuView/MyMenuView.storyboard" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/Rest/Implementations/RestClient.cs" Line="4" Column="45" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Core/ViewModels/FirstViewModel.cs" Line="3" Column="1" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.Droid/Setup.cs" Line="36" Column="1" />
+      <File FileName="Sandbox.MVVMCross.TestNavigation/Sandbox.MVVMCross.TestNavigation.iOS/Info.plist" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -10,7 +13,7 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Sandbox.MVVMCross.TestNavigation.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F93F3FC6-76FE-4E41-9242-C7643E986439" />
-  <MonoDevelop.Ide.ItemProperties.Sandbox.MVVMCross.TestNavigation.Droid PreferredExecutionTarget="Android.32d6ae4d" />
+  <MonoDevelop.Ide.ItemProperties.Sandbox.MVVMCross.TestNavigation.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5E862CF2-09BC-4E17-9C0E-4E453AC83D4C" automaticSigning="False" />
+  <MonoDevelop.Ide.ItemProperties.Sandbox.MVVMCross.TestNavigation.Droid PreferredExecutionTarget="Android.GalaxyNexus" />
   <MultiItemStartupConfigurations />
 </Properties>

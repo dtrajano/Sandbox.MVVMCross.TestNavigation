@@ -30,9 +30,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
-    <AotAssemblies>false</AotAssemblies>
-    <EnableLLVM>false</EnableLLVM>
-    <BundleAssemblies>false</BundleAssemblies>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -143,6 +140,10 @@
     <Compile Include="Views\RootView.cs" />
     <Compile Include="Views\AddressView\AddressView.cs" />
     <Compile Include="NativeServices\RSAEncryption.cs" />
+    <Compile Include="NativeServices\Contracts\IPermissionManager.cs" />
+    <Compile Include="NativeServices\Contracts\IRSAEncryption.cs" />
+    <Compile Include="NativeServices\Contracts\ISHA1Encryption.cs" />
+    <Compile Include="NativeServices\PermissionManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\AboutAssets.txt" />
